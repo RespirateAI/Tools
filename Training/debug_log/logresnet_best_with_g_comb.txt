@@ -1,0 +1,2150 @@
+{"name": "abc", "EPOCH": 200, "epoch_step": "[100]", "device": "cuda", "isPar": false, "log_dir": "./debug_log", "train_show_freq": 40, "droprate": 0.0, "droprate_2": 0.0, "lr": 0.0001, "weight_decay": 0.0001, "lr_decay_ratio": 0.2, "batch_size": 1, "batch_size_v": 1, "num_workers": 4, "num_cls": 2, "numGroup": 4, "total_instance": 4, "numGroup_test": 4, "total_instance_test": 4, "mDim": 128, "grad_clipping": 5, "isSaveModel": true, "debug_DATA_dir": "", "numLayer_Res": 0, "temperature": 1, "num_MeanInference": 1, "distill_type": "AFS"}
+ current learn rate 0.0001
+epoch: 0 idx: 40 First Loss : 0.6502682721242309, Second Loss : 0.6178282357752323 
+epoch: 0 idx: 80 First Loss : 0.6626689915545285, Second Loss : 0.5788590969517827 
+epoch: 0 idx: 120 First Loss : 0.696737849029402, Second Loss : 0.5607052820424239 
+>>>>>>>>>>> Validation Epoch: 0
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.8013731060606061
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8333333333333334
+ 
+>>>>>>>>>>> Test Epoch: 0
+ 
+ current learn rate 0.0001
+epoch: 1 idx: 40 First Loss : 0.7076268341392279, Second Loss : 0.6187907652929425 
+epoch: 1 idx: 80 First Loss : 0.6404793299734592, Second Loss : 0.589525761641562 
+epoch: 1 idx: 120 First Loss : 0.5630312559815744, Second Loss : 0.5313486810152729 
+>>>>>>>>>>> Validation Epoch: 1
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7964015151515151
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8143939393939394
+ 
+>>>>>>>>>>> Test Epoch: 1
+ 
+ current learn rate 0.0001
+epoch: 2 idx: 40 First Loss : 0.5352747293189168, Second Loss : 0.5074519355781376 
+epoch: 2 idx: 80 First Loss : 0.4337719667586498, Second Loss : 0.42354023333173246 
+epoch: 2 idx: 120 First Loss : 0.5534416341688484, Second Loss : 0.5139674547904481 
+>>>>>>>>>>> Validation Epoch: 2
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.8025568181818181
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8143939393939394
+ 
+>>>>>>>>>>> Test Epoch: 2
+ 
+ current learn rate 0.0001
+epoch: 3 idx: 40 First Loss : 0.46160797387128694, Second Loss : 0.45122102098539474 
+epoch: 3 idx: 80 First Loss : 0.43743679947801867, Second Loss : 0.4342345276614651 
+epoch: 3 idx: 120 First Loss : 0.5193305285143045, Second Loss : 0.4810035981082668 
+>>>>>>>>>>> Validation Epoch: 3
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7999526515151514
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8143939393939394
+ 
+>>>>>>>>>>> Test Epoch: 3
+ 
+ current learn rate 0.0001
+epoch: 4 idx: 40 First Loss : 0.4462944849394262, Second Loss : 0.42810824811458587 
+epoch: 4 idx: 80 First Loss : 0.5154477535979822, Second Loss : 0.46969816610217097 
+epoch: 4 idx: 120 First Loss : 0.5146791476213063, Second Loss : 0.4694453357408444 
+>>>>>>>>>>> Validation Epoch: 4
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.8035037878787878
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.7992424242424242
+ 
+>>>>>>>>>>> Test Epoch: 4
+ 
+ current learn rate 0.0001
+epoch: 5 idx: 40 First Loss : 0.3957233809866011, Second Loss : 0.370129965338856 
+epoch: 5 idx: 80 First Loss : 0.3930503239738755, Second Loss : 0.37152999634854494 
+epoch: 5 idx: 120 First Loss : 0.5259454963806396, Second Loss : 0.4677520014656087 
+>>>>>>>>>>> Validation Epoch: 5
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.8023200757575757
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8068181818181818
+ 
+>>>>>>>>>>> Test Epoch: 5
+ 
+ current learn rate 0.0001
+epoch: 6 idx: 40 First Loss : 0.49706651910673827, Second Loss : 0.4550851695239544 
+epoch: 6 idx: 80 First Loss : 0.5257405045558698, Second Loss : 0.4648572667967528 
+epoch: 6 idx: 120 First Loss : 0.4543656432069838, Second Loss : 0.41598665294392656 
+>>>>>>>>>>> Validation Epoch: 6
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7980587121212122
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.7992424242424243
+ 
+>>>>>>>>>>> Test Epoch: 6
+ 
+ current learn rate 0.0001
+epoch: 7 idx: 40 First Loss : 0.6414029362786096, Second Loss : 0.5107372786500491 
+epoch: 7 idx: 80 First Loss : 0.5135531964799156, Second Loss : 0.4450620966090355 
+epoch: 7 idx: 120 First Loss : 0.4974604363485317, Second Loss : 0.43125894423574207 
+>>>>>>>>>>> Validation Epoch: 7
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7952178030303031
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.803030303030303
+ 
+>>>>>>>>>>> Test Epoch: 7
+ 
+ current learn rate 0.0001
+epoch: 8 idx: 40 First Loss : 0.6086473599832971, Second Loss : 0.5045247461588588 
+epoch: 8 idx: 80 First Loss : 0.44890082120837177, Second Loss : 0.3952233173680725 
+epoch: 8 idx: 120 First Loss : 0.4917800966863676, Second Loss : 0.44799750958918594 
+>>>>>>>>>>> Validation Epoch: 8
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7930871212121212
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.7992424242424242
+ 
+>>>>>>>>>>> Test Epoch: 8
+ 
+ current learn rate 0.0001
+epoch: 9 idx: 40 First Loss : 0.580889385775663, Second Loss : 0.45008230446837844 
+epoch: 9 idx: 80 First Loss : 0.44962364562088625, Second Loss : 0.377340872840432 
+epoch: 9 idx: 120 First Loss : 0.4362807822607768, Second Loss : 0.3677763089998431 
+>>>>>>>>>>> Validation Epoch: 9
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7890625000000001
+  Second-Tier acc 0.8285714387893677, precision 0.8571428656578064, recall 0.5454545617103577, specificity 0.9583333134651184, F1 0.6666666865348816, AUC 0.7765151515151515
+ 
+>>>>>>>>>>> Test Epoch: 9
+ 
+ current learn rate 0.0001
+epoch: 10 idx: 40 First Loss : 0.45012059323489667, Second Loss : 0.3522488293237984 
+epoch: 10 idx: 80 First Loss : 0.45998592462856325, Second Loss : 0.35946620294707826 
+epoch: 10 idx: 120 First Loss : 0.4484392390140177, Second Loss : 0.3567326194878357 
+>>>>>>>>>>> Validation Epoch: 10
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7888257575757576
+  Second-Tier acc 0.800000011920929, precision 0.75, recall 0.5454545617103577, specificity 0.9166666865348816, F1 0.6315789818763733, AUC 0.787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 10
+ 
+ current learn rate 0.0001
+epoch: 11 idx: 40 First Loss : 0.5414514920441433, Second Loss : 0.3368168189641437 
+epoch: 11 idx: 80 First Loss : 0.4303663464728743, Second Loss : 0.2930279107888964 
+epoch: 11 idx: 120 First Loss : 0.43217949439325215, Second Loss : 0.2977794064581455 
+>>>>>>>>>>> Validation Epoch: 11
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.78125
+  Second-Tier acc 0.8285714387893677, precision 0.8571428656578064, recall 0.5454545617103577, specificity 0.9583333134651184, F1 0.6666666865348816, AUC 0.7803030303030303
+ 
+>>>>>>>>>>> Test Epoch: 11
+ 
+ current learn rate 0.0001
+epoch: 12 idx: 40 First Loss : 0.3304695278056897, Second Loss : 0.23888352144567762 
+epoch: 12 idx: 80 First Loss : 0.36508296290412545, Second Loss : 0.21988529178779573 
+epoch: 12 idx: 120 First Loss : 0.3856268736165172, Second Loss : 0.2264023035982973 
+>>>>>>>>>>> Validation Epoch: 12
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7904829545454545
+  Second-Tier acc 0.800000011920929, precision 0.75, recall 0.5454545617103577, specificity 0.9166666865348816, F1 0.6315789818763733, AUC 0.7878787878787878
+ 
+>>>>>>>>>>> Test Epoch: 12
+ 
+ current learn rate 0.0001
+epoch: 13 idx: 40 First Loss : 0.3118804370256839, Second Loss : 0.11843277439838858 
+epoch: 13 idx: 80 First Loss : 0.29512191057001474, Second Loss : 0.11275559829518897 
+epoch: 13 idx: 120 First Loss : 0.336800185785008, Second Loss : 0.14196979797695045 
+>>>>>>>>>>> Validation Epoch: 13
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.7888257575757575
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.7878787878787878
+ 
+>>>>>>>>>>> Test Epoch: 13
+ 
+ current learn rate 0.0001
+epoch: 14 idx: 40 First Loss : 0.32074268276337536, Second Loss : 0.1392995647315729 
+epoch: 14 idx: 80 First Loss : 0.3381068962393329, Second Loss : 0.13463009014531052 
+epoch: 14 idx: 120 First Loss : 0.3302666077414566, Second Loss : 0.1122416659148333 
+>>>>>>>>>>> Validation Epoch: 14
+  First-Tier acc 0.8214285969734192, precision 0.7714285850524902, recall 0.6136363744735718, specificity 0.9166666865348816, F1 0.6835442781448364, AUC 0.8070549242424242
+  Second-Tier acc 0.8285714387893677, precision 0.8571428656578064, recall 0.5454545617103577, specificity 0.9583333134651184, F1 0.6666666865348816, AUC 0.8068181818181818
+ 
+>>>>>>>>>>> Test Epoch: 14
+ 
+ current learn rate 0.0001
+epoch: 15 idx: 40 First Loss : 0.34326826167525726, Second Loss : 0.11096834624124767 
+epoch: 15 idx: 80 First Loss : 0.31042072541167726, Second Loss : 0.08002653454656183 
+epoch: 15 idx: 120 First Loss : 0.31362354863764874, Second Loss : 0.08049557999383221 
+>>>>>>>>>>> Validation Epoch: 15
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.7959280303030303
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.7992424242424242
+ 
+>>>>>>>>>>> Test Epoch: 15
+ 
+ current learn rate 0.0001
+epoch: 16 idx: 40 First Loss : 0.1745171236630995, Second Loss : 0.044459293666307076 
+epoch: 16 idx: 80 First Loss : 0.20579257943463744, Second Loss : 0.03193390268742746 
+epoch: 16 idx: 120 First Loss : 0.2833324824526547, Second Loss : 0.045320432179547274 
+>>>>>>>>>>> Validation Epoch: 16
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8151041666666666
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.803030303030303
+ 
+>>>>>>>>>>> Test Epoch: 16
+ 
+ current learn rate 0.0001
+epoch: 17 idx: 40 First Loss : 0.25301108817366186, Second Loss : 0.08083228530861106 
+epoch: 17 idx: 80 First Loss : 0.26402092477146655, Second Loss : 0.051591114212953926 
+epoch: 17 idx: 120 First Loss : 0.28993781141228586, Second Loss : 0.06776564906056137 
+>>>>>>>>>>> Validation Epoch: 17
+  First-Tier acc 0.8642857074737549, precision 1.0, recall 0.5681818127632141, specificity 1.0, F1 0.7246376872062683, AUC 0.806344696969697
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8257575757575758
+ 
+>>>>>>>>>>> Test Epoch: 17
+ 
+ current learn rate 0.0001
+epoch: 18 idx: 40 First Loss : 0.2675801074758056, Second Loss : 0.01574789790158775 
+epoch: 18 idx: 80 First Loss : 0.24121856803903938, Second Loss : 0.009938961661566737 
+epoch: 18 idx: 120 First Loss : 0.2591506188449178, Second Loss : 0.01238165151942591 
+>>>>>>>>>>> Validation Epoch: 18
+  First-Tier acc 0.8285714387893677, precision 0.7941176295280457, recall 0.6136363744735718, specificity 0.9270833134651184, F1 0.692307710647583, AUC 0.8158143939393939
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8446969696969697
+ 
+>>>>>>>>>>> Test Epoch: 18
+ 
+ current learn rate 0.0001
+epoch: 19 idx: 40 First Loss : 0.293799126059821, Second Loss : 0.011942420917335817 
+epoch: 19 idx: 80 First Loss : 0.2780590470547395, Second Loss : 0.007721402728970439 
+epoch: 19 idx: 120 First Loss : 0.22946499538156787, Second Loss : 0.006973154268239886 
+>>>>>>>>>>> Validation Epoch: 19
+  First-Tier acc 0.8571428656578064, precision 0.9615384340286255, recall 0.5681818127632141, specificity 0.9895833134651184, F1 0.714285671710968, AUC 0.8174715909090909
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8333333333333334
+ 
+>>>>>>>>>>> Test Epoch: 19
+ 
+ current learn rate 0.0001
+epoch: 20 idx: 40 First Loss : 0.12709428255038802, Second Loss : 0.004031296608792268 
+epoch: 20 idx: 80 First Loss : 0.209023911911936, Second Loss : 0.0032168377241954538 
+epoch: 20 idx: 120 First Loss : 0.25720084165610996, Second Loss : 0.00476837188355308 
+>>>>>>>>>>> Validation Epoch: 20
+  First-Tier acc 0.8500000238418579, precision 0.9259259104728699, recall 0.5681818127632141, specificity 0.9791666865348816, F1 0.7042253613471985, AUC 0.8229166666666666
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8409090909090909
+ 
+>>>>>>>>>>> Test Epoch: 20
+ 
+ current learn rate 0.0001
+epoch: 21 idx: 40 First Loss : 0.22591262213500157, Second Loss : 0.007517179933591222 
+epoch: 21 idx: 80 First Loss : 0.22428875919995334, Second Loss : 0.004601386457148848 
+epoch: 21 idx: 120 First Loss : 0.21951103831658353, Second Loss : 0.004762109606593156 
+>>>>>>>>>>> Validation Epoch: 21
+  First-Tier acc 0.8285714387893677, precision 0.7631579041481018, recall 0.6590909361839294, specificity 0.90625, F1 0.7073171138763428, AUC 0.8302556818181818
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8409090909090909
+ 
+>>>>>>>>>>> Test Epoch: 21
+ 
+ current learn rate 0.0001
+epoch: 22 idx: 40 First Loss : 0.2591945128486259, Second Loss : 0.003085865628283102 
+epoch: 22 idx: 80 First Loss : 0.20972435765188494, Second Loss : 0.0020682572422749956 
+epoch: 22 idx: 120 First Loss : 0.20377449423388802, Second Loss : 0.0018756811949377432 
+>>>>>>>>>>> Validation Epoch: 22
+  First-Tier acc 0.8285714387893677, precision 0.75, recall 0.6818181872367859, specificity 0.8958333134651184, F1 0.714285671710968, AUC 0.8378314393939394
+  Second-Tier acc 0.7428571581840515, precision 0.5714285969734192, recall 0.7272727489471436, specificity 0.75, F1 0.64000004529953, AUC 0.8446969696969697
+ 
+>>>>>>>>>>> Test Epoch: 22
+ 
+ current learn rate 0.0001
+epoch: 23 idx: 40 First Loss : 0.15983659484882082, Second Loss : 0.0008285767584929715 
+epoch: 23 idx: 80 First Loss : 0.1240131149879744, Second Loss : 0.002155040873291014 
+epoch: 23 idx: 120 First Loss : 0.17934148228596314, Second Loss : 0.003295573045549579 
+>>>>>>>>>>> Validation Epoch: 23
+  First-Tier acc 0.8357142806053162, precision 0.8181818127632141, recall 0.6136363744735718, specificity 0.9375, F1 0.701298713684082, AUC 0.8248106060606061
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8333333333333333
+ 
+>>>>>>>>>>> Test Epoch: 23
+ 
+ current learn rate 0.0001
+epoch: 24 idx: 40 First Loss : 0.15654954213532618, Second Loss : 0.0006506676557393121 
+epoch: 24 idx: 80 First Loss : 0.1579516152607539, Second Loss : 0.001221037165221528 
+epoch: 24 idx: 120 First Loss : 0.16761275396377945, Second Loss : 0.0014642047394476166 
+>>>>>>>>>>> Validation Epoch: 24
+  First-Tier acc 0.8357142806053162, precision 0.8181818127632141, recall 0.6136363744735718, specificity 0.9375, F1 0.701298713684082, AUC 0.8203125
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8181818181818181
+ 
+>>>>>>>>>>> Test Epoch: 24
+ 
+ current learn rate 0.0001
+epoch: 25 idx: 40 First Loss : 0.10326630050494714, Second Loss : 0.0013326437648913726 
+epoch: 25 idx: 80 First Loss : 0.10453027119247053, Second Loss : 0.0014354313587584323 
+epoch: 25 idx: 120 First Loss : 0.15677922397602137, Second Loss : 0.001323936687964237 
+>>>>>>>>>>> Validation Epoch: 25
+  First-Tier acc 0.8714285492897034, precision 0.9642857313156128, recall 0.6136363744735718, specificity 0.9895833134651184, F1 0.7500000596046448, AUC 0.8416193181818182
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8522727272727272
+ 
+>>>>>>>>>>> Test Epoch: 25
+ 
+ current learn rate 0.0001
+epoch: 26 idx: 40 First Loss : 0.15988291032481355, Second Loss : 0.003351120444972899 
+epoch: 26 idx: 80 First Loss : 0.15551328762057892, Second Loss : 0.001855404731461885 
+epoch: 26 idx: 120 First Loss : 0.17764464842324135, Second Loss : 0.0014988826550946873 
+>>>>>>>>>>> Validation Epoch: 26
+  First-Tier acc 0.8428571224212646, precision 0.8666666746139526, recall 0.5909090638160706, specificity 0.9583333134651184, F1 0.7027026414871216, AUC 0.8304924242424243
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8484848484848485
+ 
+>>>>>>>>>>> Test Epoch: 26
+ 
+ current learn rate 0.0001
+epoch: 27 idx: 40 First Loss : 0.20305322451613392, Second Loss : 0.0008744041737335451 
+epoch: 27 idx: 80 First Loss : 0.18237267300069107, Second Loss : 0.0013496792132190016 
+epoch: 27 idx: 120 First Loss : 0.15001247574556753, Second Loss : 0.0010263598887281233 
+>>>>>>>>>>> Validation Epoch: 27
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8267045454545455
+  Second-Tier acc 0.800000011920929, precision 0.6666666865348816, recall 0.7272727489471436, specificity 0.8333333134651184, F1 0.6956521272659302, AUC 0.8674242424242423
+ 
+>>>>>>>>>>> Test Epoch: 27
+ 
+ current learn rate 0.0001
+epoch: 28 idx: 40 First Loss : 0.1465809149070992, Second Loss : 0.0005091068679448085 
+epoch: 28 idx: 80 First Loss : 0.16196076933247242, Second Loss : 0.01128643890999399 
+epoch: 28 idx: 120 First Loss : 0.18581527302966758, Second Loss : 0.07493266666704954 
+>>>>>>>>>>> Validation Epoch: 28
+  First-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8357007575757577
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 28
+ 
+ current learn rate 0.0001
+epoch: 29 idx: 40 First Loss : 0.2165304740456122, Second Loss : 0.010618772238248652 
+epoch: 29 idx: 80 First Loss : 0.18109266978258348, Second Loss : 0.008342583491590005 
+epoch: 29 idx: 120 First Loss : 0.158697917645956, Second Loss : 0.006200501318073037 
+>>>>>>>>>>> Validation Epoch: 29
+  First-Tier acc 0.8428571224212646, precision 0.8235294222831726, recall 0.6363636255264282, specificity 0.9375, F1 0.7179487347602844, AUC 0.8546401515151515
+  Second-Tier acc 0.800000011920929, precision 0.6666666865348816, recall 0.7272727489471436, specificity 0.8333333134651184, F1 0.6956521272659302, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 29
+ 
+ current learn rate 0.0001
+epoch: 30 idx: 40 First Loss : 0.21197057699755534, Second Loss : 0.0025551603549521574 
+epoch: 30 idx: 80 First Loss : 0.16032243535601082, Second Loss : 0.0019822193679198464 
+epoch: 30 idx: 120 First Loss : 0.17257046725432398, Second Loss : 0.0019337852035378707 
+>>>>>>>>>>> Validation Epoch: 30
+  First-Tier acc 0.8642857074737549, precision 0.9032257795333862, recall 0.6363636255264282, specificity 0.96875, F1 0.746666669845581, AUC 0.8446969696969697
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363638
+ 
+>>>>>>>>>>> Test Epoch: 30
+ 
+ current learn rate 0.0001
+epoch: 31 idx: 40 First Loss : 0.16745561330121744, Second Loss : 0.0007081388466700034 
+epoch: 31 idx: 80 First Loss : 0.13743506206794792, Second Loss : 0.0006051761348933482 
+epoch: 31 idx: 120 First Loss : 0.12850340591262466, Second Loss : 0.0009462426967212186 
+>>>>>>>>>>> Validation Epoch: 31
+  First-Tier acc 0.8357142806053162, precision 0.800000011920929, recall 0.6363636255264282, specificity 0.9270833134651184, F1 0.7088606953620911, AUC 0.8352272727272726
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 31
+ 
+ current learn rate 0.0001
+epoch: 32 idx: 40 First Loss : 0.077346071206739, Second Loss : 0.0002199452114538758 
+epoch: 32 idx: 80 First Loss : 0.16143055516740787, Second Loss : 0.0005120883639619933 
+epoch: 32 idx: 120 First Loss : 0.14638726376791358, Second Loss : 0.0008855264354655409 
+>>>>>>>>>>> Validation Epoch: 32
+  First-Tier acc 0.8357142806053162, precision 0.8181818127632141, recall 0.6136363744735718, specificity 0.9375, F1 0.701298713684082, AUC 0.8290719696969697
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 32
+ 
+ current learn rate 0.0001
+epoch: 33 idx: 40 First Loss : 0.10222512588270546, Second Loss : 0.0008734957420619693 
+epoch: 33 idx: 80 First Loss : 0.07755349041060526, Second Loss : 0.0009509311200945447 
+epoch: 33 idx: 120 First Loss : 0.10826327874509237, Second Loss : 0.0008108783401715651 
+>>>>>>>>>>> Validation Epoch: 33
+  First-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.842566287878788
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 33
+ 
+ current learn rate 0.0001
+epoch: 34 idx: 40 First Loss : 0.04729557642640429, Second Loss : 0.00036072233589621303 
+epoch: 34 idx: 80 First Loss : 0.09112215163967222, Second Loss : 0.0003685689472450626 
+epoch: 34 idx: 120 First Loss : 0.13909921792319815, Second Loss : 0.000740687732177688 
+>>>>>>>>>>> Validation Epoch: 34
+  First-Tier acc 0.8642857074737549, precision 1.0, recall 0.5681818127632141, specificity 1.0, F1 0.7246376872062683, AUC 0.8349905303030304
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 34
+ 
+ current learn rate 0.0001
+epoch: 35 idx: 40 First Loss : 0.12305549439396372, Second Loss : 0.0005015448957223611 
+epoch: 35 idx: 80 First Loss : 0.12432816248814901, Second Loss : 0.0005652069381073766 
+epoch: 35 idx: 120 First Loss : 0.11824419330657368, Second Loss : 0.000819366058503294 
+>>>>>>>>>>> Validation Epoch: 35
+  First-Tier acc 0.8214285969734192, precision 0.7435897588729858, recall 0.6590909361839294, specificity 0.8958333134651184, F1 0.6987951993942261, AUC 0.8551136363636362
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8863636363636364
+ 
+>>>>>>>>>>> Test Epoch: 35
+ 
+ current learn rate 0.0001
+epoch: 36 idx: 40 First Loss : 0.17451059291597631, Second Loss : 0.0006298970870496134 
+epoch: 36 idx: 80 First Loss : 0.1443582265148507, Second Loss : 0.0007041610004179689 
+epoch: 36 idx: 120 First Loss : 0.12525118418737596, Second Loss : 0.00073548930556863 
+>>>>>>>>>>> Validation Epoch: 36
+  First-Tier acc 0.8428571224212646, precision 0.8666666746139526, recall 0.5909090638160706, specificity 0.9583333134651184, F1 0.7027026414871216, AUC 0.8302556818181819
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 36
+ 
+ current learn rate 0.0001
+epoch: 37 idx: 40 First Loss : 0.10948680101341779, Second Loss : 0.0004387982197831874 
+epoch: 37 idx: 80 First Loss : 0.09165729139565429, Second Loss : 0.0003013655577215779 
+epoch: 37 idx: 120 First Loss : 0.0974462310376263, Second Loss : 0.0003967213109616452 
+>>>>>>>>>>> Validation Epoch: 37
+  First-Tier acc 0.8214285969734192, precision 0.7878788113594055, recall 0.5909090638160706, specificity 0.9270833134651184, F1 0.6753246784210205, AUC 0.8295454545454545
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 37
+ 
+ current learn rate 0.0001
+epoch: 38 idx: 40 First Loss : 0.08351188271230967, Second Loss : 0.00037415562494089725 
+epoch: 38 idx: 80 First Loss : 0.0834740603246246, Second Loss : 0.0004293269553606649 
+epoch: 38 idx: 120 First Loss : 0.08787362361150979, Second Loss : 0.0003595583202676167 
+>>>>>>>>>>> Validation Epoch: 38
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8435132575757576
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 38
+ 
+ current learn rate 0.0001
+epoch: 39 idx: 40 First Loss : 0.10446178384204359, Second Loss : 0.00032991055814175497 
+epoch: 39 idx: 80 First Loss : 0.09837128758435938, Second Loss : 0.000335462097790451 
+epoch: 39 idx: 120 First Loss : 0.1046071649024725, Second Loss : 0.0003963112442906554 
+>>>>>>>>>>> Validation Epoch: 39
+  First-Tier acc 0.8357142806053162, precision 0.800000011920929, recall 0.6363636255264282, specificity 0.9270833134651184, F1 0.7088606953620911, AUC 0.8321496212121213
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121213
+ 
+>>>>>>>>>>> Test Epoch: 39
+ 
+ current learn rate 0.0001
+epoch: 40 idx: 40 First Loss : 0.16238947691235808, Second Loss : 0.0007063535755817085 
+epoch: 40 idx: 80 First Loss : 0.10163744340566154, Second Loss : 0.00042006470129383187 
+epoch: 40 idx: 120 First Loss : 0.09002063251188398, Second Loss : 0.0003435544529232004 
+>>>>>>>>>>> Validation Epoch: 40
+  First-Tier acc 0.8357142806053162, precision 0.7837837934494019, recall 0.6590909361839294, specificity 0.9166666865348816, F1 0.7160494327545166, AUC 0.8451704545454546
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 40
+ 
+ current learn rate 0.0001
+epoch: 41 idx: 40 First Loss : 0.15580673874005696, Second Loss : 0.00026522811277924775 
+epoch: 41 idx: 80 First Loss : 0.12232170662683757, Second Loss : 0.0004150705392590659 
+epoch: 41 idx: 120 First Loss : 0.09345967107838836, Second Loss : 0.0003949033610339825 
+>>>>>>>>>>> Validation Epoch: 41
+  First-Tier acc 0.8428571224212646, precision 0.8666666746139526, recall 0.5909090638160706, specificity 0.9583333134651184, F1 0.7027026414871216, AUC 0.8089488636363636
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8295454545454546
+ 
+>>>>>>>>>>> Test Epoch: 41
+ 
+ current learn rate 0.0001
+epoch: 42 idx: 40 First Loss : 0.07412261287507249, Second Loss : 0.000255957562677267 
+epoch: 42 idx: 80 First Loss : 0.11064635136655454, Second Loss : 0.00035722334429530986 
+epoch: 42 idx: 120 First Loss : 0.10733194385180506, Second Loss : 0.0006872325523891831 
+>>>>>>>>>>> Validation Epoch: 42
+  First-Tier acc 0.8571428656578064, precision 0.9615384340286255, recall 0.5681818127632141, specificity 0.9895833134651184, F1 0.714285671710968, AUC 0.8510890151515151
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 42
+ 
+ current learn rate 0.0001
+epoch: 43 idx: 40 First Loss : 0.07563917781444615, Second Loss : 0.00021446726749729805 
+epoch: 43 idx: 80 First Loss : 0.07369779073054587, Second Loss : 0.00024269030932018155 
+epoch: 43 idx: 120 First Loss : 0.07257474508905186, Second Loss : 0.00021544985888297675 
+>>>>>>>>>>> Validation Epoch: 43
+  First-Tier acc 0.8214285969734192, precision 0.7714285850524902, recall 0.6136363744735718, specificity 0.9166666865348816, F1 0.6835442781448364, AUC 0.8321496212121212
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 43
+ 
+ current learn rate 0.0001
+epoch: 44 idx: 40 First Loss : 0.10579142214934904, Second Loss : 0.0004197186444038437 
+epoch: 44 idx: 80 First Loss : 0.10263738223428334, Second Loss : 0.0003779055356722516 
+epoch: 44 idx: 120 First Loss : 0.08333907444204934, Second Loss : 0.0003261788887826356 
+>>>>>>>>>>> Validation Epoch: 44
+  First-Tier acc 0.8428571224212646, precision 1.0, recall 0.5, specificity 1.0, F1 0.6666666865348816, AUC 0.8477746212121212
+  Second-Tier acc 0.800000011920929, precision 0.6666666865348816, recall 0.7272727489471436, specificity 0.8333333134651184, F1 0.6956521272659302, AUC 0.8901515151515151
+ 
+>>>>>>>>>>> Test Epoch: 44
+ 
+ current learn rate 0.0001
+epoch: 45 idx: 40 First Loss : 0.05345062859704512, Second Loss : 0.00023195741113362088 
+epoch: 45 idx: 80 First Loss : 0.07930813465335973, Second Loss : 0.00025637158273230656 
+epoch: 45 idx: 120 First Loss : 0.06898146207202369, Second Loss : 0.00026087039713029725 
+>>>>>>>>>>> Validation Epoch: 45
+  First-Tier acc 0.8071428537368774, precision 0.707317054271698, recall 0.6590909361839294, specificity 0.875, F1 0.6823529601097107, AUC 0.8439867424242423
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 45
+ 
+ current learn rate 0.0001
+epoch: 46 idx: 40 First Loss : 0.040775413328583456, Second Loss : 7.141974391782213e-05 
+epoch: 46 idx: 80 First Loss : 0.05756068414127071, Second Loss : 0.00022560353251117605 
+epoch: 46 idx: 120 First Loss : 0.06407618638046415, Second Loss : 0.00025853968641034915 
+>>>>>>>>>>> Validation Epoch: 46
+  First-Tier acc 0.8642857074737549, precision 0.931034505367279, recall 0.6136363744735718, specificity 0.9791666865348816, F1 0.7397261261940002, AUC 0.8409090909090908
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 46
+ 
+ current learn rate 0.0001
+epoch: 47 idx: 40 First Loss : 0.07279271556362801, Second Loss : 0.00016005722821095248 
+epoch: 47 idx: 80 First Loss : 0.09318709719130994, Second Loss : 0.00013622603892482488 
+epoch: 47 idx: 120 First Loss : 0.0771697640741498, Second Loss : 0.00016524948103876133 
+>>>>>>>>>>> Validation Epoch: 47
+  First-Tier acc 0.8500000238418579, precision 0.8965517282485962, recall 0.5909090638160706, specificity 0.96875, F1 0.7123287320137024, AUC 0.8477746212121212
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 47
+ 
+ current learn rate 0.0001
+epoch: 48 idx: 40 First Loss : 0.11774637353234993, Second Loss : 0.0006289358475013885 
+epoch: 48 idx: 80 First Loss : 0.09267324547098496, Second Loss : 0.0004777924158028135 
+epoch: 48 idx: 120 First Loss : 0.08754606391965278, Second Loss : 0.00051687637184011 
+>>>>>>>>>>> Validation Epoch: 48
+  First-Tier acc 0.8214285969734192, precision 0.8064516186714172, recall 0.5681818127632141, specificity 0.9375, F1 0.6666666865348816, AUC 0.8394886363636362
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8484848484848485
+ 
+>>>>>>>>>>> Test Epoch: 48
+ 
+ current learn rate 0.0001
+epoch: 49 idx: 40 First Loss : 0.07308097312159134, Second Loss : 0.0002714305239603476 
+epoch: 49 idx: 80 First Loss : 0.07081953036521327, Second Loss : 0.0001600952484661633 
+epoch: 49 idx: 120 First Loss : 0.049747225419597876, Second Loss : 0.00012640877350674393 
+>>>>>>>>>>> Validation Epoch: 49
+  First-Tier acc 0.7571428418159485, precision 0.5806451439857483, recall 0.8181818127632141, specificity 0.7291666865348816, F1 0.6792452931404114, AUC 0.8394886363636365
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8863636363636365
+ 
+>>>>>>>>>>> Test Epoch: 49
+ 
+ current learn rate 0.0001
+epoch: 50 idx: 40 First Loss : 0.04450153435959692, Second Loss : 2.078624202432877e-05 
+epoch: 50 idx: 80 First Loss : 0.030064098831326193, Second Loss : 0.00010881455091409365 
+epoch: 50 idx: 120 First Loss : 0.03428230549495007, Second Loss : 0.00011718303179358477 
+>>>>>>>>>>> Validation Epoch: 50
+  First-Tier acc 0.8285714387893677, precision 0.738095223903656, recall 0.7045454382896423, specificity 0.8854166865348816, F1 0.7209302186965942, AUC 0.8716856060606061
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.893939393939394
+ 
+>>>>>>>>>>> Test Epoch: 50
+ 
+ current learn rate 0.0001
+epoch: 51 idx: 40 First Loss : 0.08756600013408758, Second Loss : 0.00024008200646719047 
+epoch: 51 idx: 80 First Loss : 0.09454340112009234, Second Loss : 0.00019019426459641054 
+epoch: 51 idx: 120 First Loss : 0.08970858462561229, Second Loss : 0.00018882511040647644 
+>>>>>>>>>>> Validation Epoch: 51
+  First-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8539299242424242
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 51
+ 
+ test auc: 0.8712121212121212, from epoch 51
+ current learn rate 0.0001
+epoch: 52 idx: 40 First Loss : 0.024431389930560952, Second Loss : 0.00012887768498952567 
+epoch: 52 idx: 80 First Loss : 0.03507764423927995, Second Loss : 0.00010085996501212336 
+epoch: 52 idx: 120 First Loss : 0.03260459318642953, Second Loss : 0.00036696224188522325 
+>>>>>>>>>>> Validation Epoch: 52
+  First-Tier acc 0.8714285492897034, precision 1.0, recall 0.5909090638160706, specificity 1.0, F1 0.7428571581840515, AUC 0.8551136363636364
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 52
+ 
+ test auc: 0.8712121212121212, from epoch 51
+ current learn rate 0.0001
+epoch: 53 idx: 40 First Loss : 0.041762203419671094, Second Loss : 6.576986917803396e-05 
+epoch: 53 idx: 80 First Loss : 0.057216825976468044, Second Loss : 0.00032917382207484633 
+epoch: 53 idx: 120 First Loss : 0.05772871513909952, Second Loss : 0.0002746364275654519 
+>>>>>>>>>>> Validation Epoch: 53
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8534564393939394
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 53
+ 
+ test auc: 0.8787878787878788, from epoch 53
+ current learn rate 0.0001
+epoch: 54 idx: 40 First Loss : 0.0707854306536774, Second Loss : 0.00022165088680807797 
+epoch: 54 idx: 80 First Loss : 0.08360554049085138, Second Loss : 0.00017208210301156157 
+epoch: 54 idx: 120 First Loss : 0.061830293020193966, Second Loss : 0.00020311160853794992 
+>>>>>>>>>>> Validation Epoch: 54
+  First-Tier acc 0.8428571224212646, precision 0.75, recall 0.75, specificity 0.8854166865348816, F1 0.75, AUC 0.8674242424242424
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 54
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 55 idx: 40 First Loss : 0.03920413565812168, Second Loss : 0.00015324481273015778 
+epoch: 55 idx: 80 First Loss : 0.09578604677338945, Second Loss : 0.005907957909505157 
+epoch: 55 idx: 120 First Loss : 0.13267193182291995, Second Loss : 0.005963102479619961 
+>>>>>>>>>>> Validation Epoch: 55
+  First-Tier acc 0.800000011920929, precision 0.6481481194496155, recall 0.7954545617103577, specificity 0.8020833134651184, F1 0.714285671710968, AUC 0.8555871212121213
+  Second-Tier acc 0.7142857313156128, precision 0.529411792755127, recall 0.8181818127632141, specificity 0.6666666865348816, F1 0.6428571939468384, AUC 0.8560606060606061
+ 
+>>>>>>>>>>> Test Epoch: 55
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 56 idx: 40 First Loss : 0.3605516940177864, Second Loss : 0.29904189780638146 
+epoch: 56 idx: 80 First Loss : 0.448050295117396, Second Loss : 0.3760418053984919 
+epoch: 56 idx: 120 First Loss : 0.3772306289048752, Second Loss : 0.27355731036917524 
+>>>>>>>>>>> Validation Epoch: 56
+  First-Tier acc 0.8714285492897034, precision 0.9642857313156128, recall 0.6136363744735718, specificity 0.9895833134651184, F1 0.7500000596046448, AUC 0.858191287878788
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8560606060606061
+ 
+>>>>>>>>>>> Test Epoch: 56
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 57 idx: 40 First Loss : 0.1258387080160901, Second Loss : 0.03962171214978181 
+epoch: 57 idx: 80 First Loss : 0.17167255097665474, Second Loss : 0.02537288892196843 
+epoch: 57 idx: 120 First Loss : 0.16217735347066384, Second Loss : 0.017661172125960967 
+>>>>>>>>>>> Validation Epoch: 57
+  First-Tier acc 0.8357142806053162, precision 0.8888888955116272, recall 0.5454545617103577, specificity 0.96875, F1 0.6760563254356384, AUC 0.828125
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 57
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 58 idx: 40 First Loss : 0.08389139253567919, Second Loss : 0.0008109645704179158 
+epoch: 58 idx: 80 First Loss : 0.08066702544367672, Second Loss : 0.0011024159712837544 
+epoch: 58 idx: 120 First Loss : 0.05933586814367118, Second Loss : 0.0008025892987562363 
+>>>>>>>>>>> Validation Epoch: 58
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8210227272727273
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8560606060606061
+ 
+>>>>>>>>>>> Test Epoch: 58
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 59 idx: 40 First Loss : 0.051104015123451065, Second Loss : 0.0011089142708945233 
+epoch: 59 idx: 80 First Loss : 0.06066841530061993, Second Loss : 0.0006589166361458787 
+epoch: 59 idx: 120 First Loss : 0.05403672439956608, Second Loss : 0.0005643415784508814 
+>>>>>>>>>>> Validation Epoch: 59
+  First-Tier acc 0.8428571224212646, precision 0.8055555820465088, recall 0.6590909361839294, specificity 0.9270833134651184, F1 0.7250000238418579, AUC 0.8418560606060606
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 59
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 60 idx: 40 First Loss : 0.022153247817550438, Second Loss : 0.0002631023052421355 
+epoch: 60 idx: 80 First Loss : 0.06030446943784682, Second Loss : 0.00024053285125251732 
+epoch: 60 idx: 120 First Loss : 0.06592059308935252, Second Loss : 0.0002950405986415087 
+>>>>>>>>>>> Validation Epoch: 60
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8461174242424243
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8636363636363635
+ 
+>>>>>>>>>>> Test Epoch: 60
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 61 idx: 40 First Loss : 0.10653804117428081, Second Loss : 0.000347798741641725 
+epoch: 61 idx: 80 First Loss : 0.09955041762239034, Second Loss : 0.00034256912643222394 
+epoch: 61 idx: 120 First Loss : 0.06994726416270775, Second Loss : 0.00029463870553190217 
+>>>>>>>>>>> Validation Epoch: 61
+  First-Tier acc 0.8500000238418579, precision 0.8484848737716675, recall 0.6363636255264282, specificity 0.9479166865348816, F1 0.7272726893424988, AUC 0.8413825757575757
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 61
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 62 idx: 40 First Loss : 0.02780429322956479, Second Loss : 0.00015931599649956495 
+epoch: 62 idx: 80 First Loss : 0.044285303912568, Second Loss : 0.00021548101989656842 
+epoch: 62 idx: 120 First Loss : 0.05304318973681651, Second Loss : 0.0002395872897528406 
+>>>>>>>>>>> Validation Epoch: 62
+  First-Tier acc 0.8714285492897034, precision 0.9642857313156128, recall 0.6136363744735718, specificity 0.9895833134651184, F1 0.7500000596046448, AUC 0.8581912878787878
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8749999999999999
+ 
+>>>>>>>>>>> Test Epoch: 62
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 63 idx: 40 First Loss : 0.08521511870339964, Second Loss : 0.0007915702248096679 
+epoch: 63 idx: 80 First Loss : 0.08056335883719612, Second Loss : 0.0005669259686536421 
+epoch: 63 idx: 120 First Loss : 0.06792813797421786, Second Loss : 0.0004531000594701832 
+>>>>>>>>>>> Validation Epoch: 63
+  First-Tier acc 0.8500000238418579, precision 0.8484848737716675, recall 0.6363636255264282, specificity 0.9479166865348816, F1 0.7272726893424988, AUC 0.8243371212121211
+  Second-Tier acc 0.800000011920929, precision 0.699999988079071, recall 0.6363636255264282, specificity 0.875, F1 0.6666666865348816, AUC 0.8295454545454546
+ 
+>>>>>>>>>>> Test Epoch: 63
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 64 idx: 40 First Loss : 0.014478544902794965, Second Loss : 0.000124767583392682 
+epoch: 64 idx: 80 First Loss : 0.024920185887322078, Second Loss : 0.000170220692453249 
+epoch: 64 idx: 120 First Loss : 0.02879260921644876, Second Loss : 0.00021431780170324543 
+>>>>>>>>>>> Validation Epoch: 64
+  First-Tier acc 0.7785714268684387, precision 0.6181818246841431, recall 0.7727272510528564, specificity 0.78125, F1 0.6868686676025391, AUC 0.8600852272727273
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 64
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 65 idx: 40 First Loss : 0.02561509704346463, Second Loss : 9.27005697537453e-05 
+epoch: 65 idx: 80 First Loss : 0.045536943648301076, Second Loss : 0.00018309163829144381 
+epoch: 65 idx: 120 First Loss : 0.046837224530027775, Second Loss : 0.0001902808538781405 
+>>>>>>>>>>> Validation Epoch: 65
+  First-Tier acc 0.8285714387893677, precision 0.7631579041481018, recall 0.6590909361839294, specificity 0.90625, F1 0.7073171138763428, AUC 0.8394886363636364
+  Second-Tier acc 0.800000011920929, precision 0.6666666865348816, recall 0.7272727489471436, specificity 0.8333333134651184, F1 0.6956521272659302, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 65
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 66 idx: 40 First Loss : 0.009306128420075766, Second Loss : 0.00013585969965301814 
+epoch: 66 idx: 80 First Loss : 0.024399840056487675, Second Loss : 0.00011066194418258845 
+epoch: 66 idx: 120 First Loss : 0.03391501173638953, Second Loss : 0.0001366915465576805 
+>>>>>>>>>>> Validation Epoch: 66
+  First-Tier acc 0.8357142806053162, precision 0.7837837934494019, recall 0.6590909361839294, specificity 0.9166666865348816, F1 0.7160494327545166, AUC 0.8458806818181818
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 66
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 67 idx: 40 First Loss : 0.01250795357991592, Second Loss : 8.804028420215105e-05 
+epoch: 67 idx: 80 First Loss : 0.04758982430061849, Second Loss : 0.00010863057577967795 
+epoch: 67 idx: 120 First Loss : 0.04574826229027925, Second Loss : 0.0001721382949225969 
+>>>>>>>>>>> Validation Epoch: 67
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8626893939393939
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 67
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 68 idx: 40 First Loss : 0.0416432651605362, Second Loss : 6.072790563589336e-05 
+epoch: 68 idx: 80 First Loss : 0.07933390855548339, Second Loss : 0.00017458437626540756 
+epoch: 68 idx: 120 First Loss : 0.05636206697848252, Second Loss : 0.00014484388891276013 
+>>>>>>>>>>> Validation Epoch: 68
+  First-Tier acc 0.8357142806053162, precision 0.7692307829856873, recall 0.6818181872367859, specificity 0.90625, F1 0.7228915691375732, AUC 0.8371212121212122
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 68
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 69 idx: 40 First Loss : 0.03921991653567147, Second Loss : 0.00017572421463025735 
+epoch: 69 idx: 80 First Loss : 0.03200326935083666, Second Loss : 0.0002281748049780319 
+epoch: 69 idx: 120 First Loss : 0.045081665203750274, Second Loss : 0.00021578613722213666 
+>>>>>>>>>>> Validation Epoch: 69
+  First-Tier acc 0.8500000238418579, precision 0.8108108043670654, recall 0.6818181872367859, specificity 0.9270833134651184, F1 0.7407407164573669, AUC 0.8517992424242424
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8674242424242423
+ 
+>>>>>>>>>>> Test Epoch: 69
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 70 idx: 40 First Loss : 0.030725456219471425, Second Loss : 0.0004555936695261664 
+epoch: 70 idx: 80 First Loss : 0.02107573448974165, Second Loss : 0.0002724432306443703 
+epoch: 70 idx: 120 First Loss : 0.021914148827823964, Second Loss : 0.00020454209302140925 
+>>>>>>>>>>> Validation Epoch: 70
+  First-Tier acc 0.8428571224212646, precision 0.8928571343421936, recall 0.5681818127632141, specificity 0.96875, F1 0.694444477558136, AUC 0.8567708333333334
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 70
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 71 idx: 40 First Loss : 0.03026708920043575, Second Loss : 0.00011635350082439544 
+epoch: 71 idx: 80 First Loss : 0.02542853059062935, Second Loss : 0.00014668102545112305 
+epoch: 71 idx: 120 First Loss : 0.03064227384349465, Second Loss : 0.00012391090892975852 
+>>>>>>>>>>> Validation Epoch: 71
+  First-Tier acc 0.7928571701049805, precision 0.6530612111091614, recall 0.7272727489471436, specificity 0.8229166865348816, F1 0.6881721019744873, AUC 0.8607954545454546
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 71
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 72 idx: 40 First Loss : 0.022263362003189967, Second Loss : 0.00020697549334869336 
+epoch: 72 idx: 80 First Loss : 0.020036734646956232, Second Loss : 0.00013286794620581688 
+epoch: 72 idx: 120 First Loss : 0.028337297320401925, Second Loss : 0.00011875034115599684 
+>>>>>>>>>>> Validation Epoch: 72
+  First-Tier acc 0.7642857432365417, precision 0.5846154093742371, recall 0.8636363744735718, specificity 0.71875, F1 0.6972478032112122, AUC 0.8612689393939394
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 72
+ 
+ test auc: 0.8825757575757576, from epoch 54
+ current learn rate 0.0001
+epoch: 73 idx: 40 First Loss : 0.02053469277142881, Second Loss : 0.00010916595621210945 
+epoch: 73 idx: 80 First Loss : 0.046364601533154824, Second Loss : 7.910530392853942e-05 
+epoch: 73 idx: 120 First Loss : 0.04276287205170301, Second Loss : 9.78744132411317e-05 
+>>>>>>>>>>> Validation Epoch: 73
+  First-Tier acc 0.8357142806053162, precision 0.800000011920929, recall 0.6363636255264282, specificity 0.9270833134651184, F1 0.7088606953620911, AUC 0.8721590909090909
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8977272727272727
+ 
+>>>>>>>>>>> Test Epoch: 73
+ 
+ test auc: 0.8977272727272727, from epoch 73
+ current learn rate 0.0001
+epoch: 74 idx: 40 First Loss : 0.010412342311394696, Second Loss : 8.379322037210812e-05 
+epoch: 74 idx: 80 First Loss : 0.009821411037749783, Second Loss : 6.602685289331944e-05 
+epoch: 74 idx: 120 First Loss : 0.02211231368428628, Second Loss : 9.076247911803393e-05 
+>>>>>>>>>>> Validation Epoch: 74
+  First-Tier acc 0.8071428537368774, precision 0.6888889074325562, recall 0.7045454382896423, specificity 0.8541666865348816, F1 0.6966292262077332, AUC 0.8681344696969697
+  Second-Tier acc 0.8285714387893677, precision 0.7272727489471436, recall 0.7272727489471436, specificity 0.875, F1 0.7272727489471436, AUC 0.8939393939393939
+ 
+>>>>>>>>>>> Test Epoch: 74
+ 
+ test auc: 0.8977272727272727, from epoch 73
+ current learn rate 0.0001
+epoch: 75 idx: 40 First Loss : 0.02955652285292132, Second Loss : 4.438813264169283e-05 
+epoch: 75 idx: 80 First Loss : 0.02252918844524814, Second Loss : 5.471240006800215e-05 
+epoch: 75 idx: 120 First Loss : 0.04505480770616425, Second Loss : 7.784958893838715e-05 
+>>>>>>>>>>> Validation Epoch: 75
+  First-Tier acc 0.8428571224212646, precision 0.8055555820465088, recall 0.6590909361839294, specificity 0.9270833134651184, F1 0.7250000238418579, AUC 0.8740530303030303
+  Second-Tier acc 0.800000011920929, precision 0.6666666865348816, recall 0.7272727489471436, specificity 0.8333333134651184, F1 0.6956521272659302, AUC 0.8712121212121213
+ 
+>>>>>>>>>>> Test Epoch: 75
+ 
+ test auc: 0.8977272727272727, from epoch 73
+ current learn rate 0.0001
+epoch: 76 idx: 40 First Loss : 0.05898390561075075, Second Loss : 8.29752677928397e-05 
+epoch: 76 idx: 80 First Loss : 0.0507574391487509, Second Loss : 0.0001033611399507528 
+epoch: 76 idx: 120 First Loss : 0.06005257776462069, Second Loss : 0.0001221307542487319 
+>>>>>>>>>>> Validation Epoch: 76
+  First-Tier acc 0.8357142806053162, precision 0.7692307829856873, recall 0.6818181872367859, specificity 0.90625, F1 0.7228915691375732, AUC 0.8712121212121212
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8939393939393939
+ 
+>>>>>>>>>>> Test Epoch: 76
+ 
+ test auc: 0.8977272727272727, from epoch 73
+ current learn rate 0.0001
+epoch: 77 idx: 40 First Loss : 0.022568594423324838, Second Loss : 5.8039375189267164e-05 
+epoch: 77 idx: 80 First Loss : 0.0434157623975608, Second Loss : 0.00011716619537986972 
+epoch: 77 idx: 120 First Loss : 0.04527586708483871, Second Loss : 0.00012181979524257258 
+>>>>>>>>>>> Validation Epoch: 77
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8515625000000001
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 77
+ 
+ test auc: 0.8977272727272727, from epoch 73
+ current learn rate 0.0001
+epoch: 78 idx: 40 First Loss : 0.058949373918682116, Second Loss : 0.00010365145817505805 
+epoch: 78 idx: 80 First Loss : 0.054653962265325616, Second Loss : 0.0001016524738663982 
+epoch: 78 idx: 120 First Loss : 0.046624368948433435, Second Loss : 0.000102801048057799 
+>>>>>>>>>>> Validation Epoch: 78
+  First-Tier acc 0.8285714387893677, precision 0.7941176295280457, recall 0.6136363744735718, specificity 0.9270833134651184, F1 0.692307710647583, AUC 0.8548768939393939
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 78
+ 
+ test auc: 0.8977272727272727, from epoch 73
+ current learn rate 0.0001
+epoch: 79 idx: 40 First Loss : 0.05077094184118778, Second Loss : 0.00012121087291738775 
+epoch: 79 idx: 80 First Loss : 0.06132795789552574, Second Loss : 8.51216116075193e-05 
+epoch: 79 idx: 120 First Loss : 0.06078336141525066, Second Loss : 0.00010067765821245208 
+>>>>>>>>>>> Validation Epoch: 79
+  First-Tier acc 0.8071428537368774, precision 0.6888889074325562, recall 0.7045454382896423, specificity 0.8541666865348816, F1 0.6966292262077332, AUC 0.8508522727272727
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.8939393939393939
+ 
+>>>>>>>>>>> Test Epoch: 79
+ 
+ test auc: 0.8977272727272727, from epoch 73
+ current learn rate 0.0001
+epoch: 80 idx: 40 First Loss : 0.014358948565336505, Second Loss : 5.540988860808227e-05 
+epoch: 80 idx: 80 First Loss : 0.030796128215109776, Second Loss : 7.000997413575405e-05 
+epoch: 80 idx: 120 First Loss : 0.022655226999658377, Second Loss : 7.484184346431277e-05 
+>>>>>>>>>>> Validation Epoch: 80
+  First-Tier acc 0.7928571701049805, precision 0.6315789222717285, recall 0.8181818127632141, specificity 0.78125, F1 0.7128713130950928, AUC 0.8941761363636364
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.9053030303030304
+ 
+>>>>>>>>>>> Test Epoch: 80
+ 
+ test auc: 0.9053030303030304, from epoch 80
+ current learn rate 0.0001
+epoch: 81 idx: 40 First Loss : 0.06636901724557447, Second Loss : 6.602488619247281e-05 
+epoch: 81 idx: 80 First Loss : 0.035024348611314336, Second Loss : 5.933775973137046e-05 
+epoch: 81 idx: 120 First Loss : 0.029667261732474987, Second Loss : 6.322568086639299e-05 
+>>>>>>>>>>> Validation Epoch: 81
+  First-Tier acc 0.8642857074737549, precision 0.931034505367279, recall 0.6136363744735718, specificity 0.9791666865348816, F1 0.7397261261940002, AUC 0.8598484848484848
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 81
+ 
+ test auc: 0.9053030303030304, from epoch 80
+ current learn rate 0.0001
+epoch: 82 idx: 40 First Loss : 0.006038410794677418, Second Loss : 0.00013760164081428884 
+epoch: 82 idx: 80 First Loss : 0.022465778381223343, Second Loss : 0.0001029045862546596 
+epoch: 82 idx: 120 First Loss : 0.037220666189100866, Second Loss : 9.354762092700734e-05 
+>>>>>>>>>>> Validation Epoch: 82
+  First-Tier acc 0.8142856955528259, precision 0.7250000238418579, recall 0.6590909361839294, specificity 0.8854166865348816, F1 0.6904762387275696, AUC 0.859375
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 82
+ 
+ test auc: 0.9053030303030304, from epoch 80
+ current learn rate 0.0001
+epoch: 83 idx: 40 First Loss : 0.019738266140655013, Second Loss : 0.00011575174471811778 
+epoch: 83 idx: 80 First Loss : 0.01729584240955262, Second Loss : 0.00013541820105968937 
+epoch: 83 idx: 120 First Loss : 0.013664476609026604, Second Loss : 0.00012048469777982499 
+>>>>>>>>>>> Validation Epoch: 83
+  First-Tier acc 0.7785714268684387, precision 0.60317462682724, recall 0.8636363744735718, specificity 0.7395833134651184, F1 0.7102804183959961, AUC 0.8825757575757576
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8939393939393939
+ 
+>>>>>>>>>>> Test Epoch: 83
+ 
+ test auc: 0.9053030303030304, from epoch 80
+ current learn rate 0.0001
+epoch: 84 idx: 40 First Loss : 0.017170029682711176, Second Loss : 3.878000751704747e-05 
+epoch: 84 idx: 80 First Loss : 0.009599289663265153, Second Loss : 4.136996355299516e-05 
+epoch: 84 idx: 120 First Loss : 0.02699111065128979, Second Loss : 8.082481949660547e-05 
+>>>>>>>>>>> Validation Epoch: 84
+  First-Tier acc 0.8500000238418579, precision 0.8285714387893677, recall 0.6590909361839294, specificity 0.9375, F1 0.73417729139328, AUC 0.8716856060606061
+  Second-Tier acc 0.8857142925262451, precision 1.0, recall 0.6363636255264282, specificity 1.0, F1 0.7777777910232544, AUC 0.9090909090909091
+ 
+>>>>>>>>>>> Test Epoch: 84
+ 
+ test auc: 0.9090909090909091, from epoch 84
+ current learn rate 0.0001
+epoch: 85 idx: 40 First Loss : 0.03199660617104172, Second Loss : 4.002056910898943e-05 
+epoch: 85 idx: 80 First Loss : 0.04912472115414843, Second Loss : 5.9594616100877576e-05 
+epoch: 85 idx: 120 First Loss : 0.03465180897298362, Second Loss : 6.520090632443262e-05 
+>>>>>>>>>>> Validation Epoch: 85
+  First-Tier acc 0.7785714268684387, precision 0.6226415038108826, recall 0.75, specificity 0.7916666865348816, F1 0.6804122924804688, AUC 0.873342803030303
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.9053030303030303
+ 
+>>>>>>>>>>> Test Epoch: 85
+ 
+ test auc: 0.9090909090909091, from epoch 84
+ current learn rate 0.0001
+epoch: 86 idx: 40 First Loss : 0.02270903669159452, Second Loss : 6.51480400325255e-05 
+epoch: 86 idx: 80 First Loss : 0.032633225125925945, Second Loss : 4.307287954166128e-05 
+epoch: 86 idx: 120 First Loss : 0.0407778280302504, Second Loss : 5.687021504539776e-05 
+>>>>>>>>>>> Validation Epoch: 86
+  First-Tier acc 0.8571428656578064, precision 0.9615384340286255, recall 0.5681818127632141, specificity 0.9895833134651184, F1 0.714285671710968, AUC 0.8577178030303031
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.9090909090909091
+ 
+>>>>>>>>>>> Test Epoch: 86
+ 
+ test auc: 0.9090909090909091, from epoch 84
+ current learn rate 0.0001
+epoch: 87 idx: 40 First Loss : 0.022438097810629644, Second Loss : 0.00010400283520297648 
+epoch: 87 idx: 80 First Loss : 0.014325492323203548, Second Loss : 9.423460270339135e-05 
+epoch: 87 idx: 120 First Loss : 0.024014521454123874, Second Loss : 7.041531353569515e-05 
+>>>>>>>>>>> Validation Epoch: 87
+  First-Tier acc 0.8785714507102966, precision 0.9354838728904724, recall 0.6590909361839294, specificity 0.9791666865348816, F1 0.7733333110809326, AUC 0.8681344696969696
+  Second-Tier acc 0.8285714387893677, precision 0.692307710647583, recall 0.8181818127632141, specificity 0.8333333134651184, F1 0.75, AUC 0.9128787878787878
+ 
+>>>>>>>>>>> Test Epoch: 87
+ 
+ test auc: 0.9128787878787878, from epoch 87
+ current learn rate 0.0001
+epoch: 88 idx: 40 First Loss : 0.036971744525776985, Second Loss : 8.713314502379887e-05 
+epoch: 88 idx: 80 First Loss : 0.038695871023535444, Second Loss : 6.013201736010387e-05 
+epoch: 88 idx: 120 First Loss : 0.04322305423168252, Second Loss : 7.330806142977764e-05 
+>>>>>>>>>>> Validation Epoch: 88
+  First-Tier acc 0.800000011920929, precision 0.6538461446762085, recall 0.7727272510528564, specificity 0.8125, F1 0.7083333134651184, AUC 0.8792613636363636
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.912878787878788
+ 
+>>>>>>>>>>> Test Epoch: 88
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 89 idx: 40 First Loss : 0.006879030734341996, Second Loss : 0.00032420074447081504 
+epoch: 89 idx: 80 First Loss : 0.02919351522011695, Second Loss : 0.0002122461836294498 
+epoch: 89 idx: 120 First Loss : 0.02724888159455503, Second Loss : 0.0001499947524253642 
+>>>>>>>>>>> Validation Epoch: 89
+  First-Tier acc 0.7785714268684387, precision 0.6274510025978088, recall 0.7272727489471436, specificity 0.8020833134651184, F1 0.6736842393875122, AUC 0.8567708333333333
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8939393939393939
+ 
+>>>>>>>>>>> Test Epoch: 89
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 90 idx: 40 First Loss : 0.05337155818917836, Second Loss : 7.889511633472069e-05 
+epoch: 90 idx: 80 First Loss : 0.0378500325741129, Second Loss : 7.505771131972594e-05 
+epoch: 90 idx: 120 First Loss : 0.026366957053302543, Second Loss : 6.075075883818689e-05 
+>>>>>>>>>>> Validation Epoch: 90
+  First-Tier acc 0.8071428537368774, precision 0.6976743936538696, recall 0.6818181872367859, specificity 0.8645833134651184, F1 0.6896551847457886, AUC 0.8525094696969697
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 90
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 91 idx: 40 First Loss : 0.033772233356785364, Second Loss : 3.091730847000207e-05 
+epoch: 91 idx: 80 First Loss : 0.03562807668790811, Second Loss : 8.953360986536651e-05 
+epoch: 91 idx: 120 First Loss : 0.17208802771400827, Second Loss : 0.2627396224220136 
+>>>>>>>>>>> Validation Epoch: 91
+  First-Tier acc 0.800000011920929, precision 0.6818181872367859, recall 0.6818181872367859, specificity 0.8541666865348816, F1 0.6818181872367859, AUC 0.8106060606060607
+  Second-Tier acc 0.800000011920929, precision 0.75, recall 0.5454545617103577, specificity 0.9166666865348816, F1 0.6315789818763733, AUC 0.7632575757575758
+ 
+>>>>>>>>>>> Test Epoch: 91
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 92 idx: 40 First Loss : 0.27404658336508875, Second Loss : 0.16904001036191332 
+epoch: 92 idx: 80 First Loss : 0.2763873953524126, Second Loss : 0.1094126213259857 
+epoch: 92 idx: 120 First Loss : 0.2323340367683765, Second Loss : 0.07801735096293605 
+>>>>>>>>>>> Validation Epoch: 92
+  First-Tier acc 0.8357142806053162, precision 0.800000011920929, recall 0.6363636255264282, specificity 0.9270833134651184, F1 0.7088606953620911, AUC 0.8536931818181819
+  Second-Tier acc 0.8285714387893677, precision 0.8571428656578064, recall 0.5454545617103577, specificity 0.9583333134651184, F1 0.6666666865348816, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 92
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 93 idx: 40 First Loss : 0.07662098971569549, Second Loss : 0.0023880887026734854 
+epoch: 93 idx: 80 First Loss : 0.07714843863088561, Second Loss : 0.005532909393787033 
+epoch: 93 idx: 120 First Loss : 0.09066366226981207, Second Loss : 0.005112378982202692 
+>>>>>>>>>>> Validation Epoch: 93
+  First-Tier acc 0.8142856955528259, precision 0.7142857313156128, recall 0.6818181872367859, specificity 0.875, F1 0.6976744532585144, AUC 0.8686079545454546
+  Second-Tier acc 0.7714285850524902, precision 0.6153846383094788, recall 0.7272727489471436, specificity 0.7916666865348816, F1 0.6666666865348816, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 93
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 94 idx: 40 First Loss : 0.0509187457324515, Second Loss : 0.00041584517352060145 
+epoch: 94 idx: 80 First Loss : 0.048486778345431955, Second Loss : 0.00040307741936382866 
+epoch: 94 idx: 120 First Loss : 0.044840399772571496, Second Loss : 0.0005588856634893465 
+>>>>>>>>>>> Validation Epoch: 94
+  First-Tier acc 0.8142856955528259, precision 0.695652186870575, recall 0.7272727489471436, specificity 0.8541666865348816, F1 0.7111110687255859, AUC 0.8740530303030303
+  Second-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 94
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 95 idx: 40 First Loss : 0.04309127643283546, Second Loss : 0.00011523324527225043 
+epoch: 95 idx: 80 First Loss : 0.0523774417697652, Second Loss : 0.00019927314167142996 
+epoch: 95 idx: 120 First Loss : 0.06231162842265784, Second Loss : 0.00028133882536653945 
+>>>>>>>>>>> Validation Epoch: 95
+  First-Tier acc 0.7785714268684387, precision 0.6140350699424744, recall 0.7954545617103577, specificity 0.7708333134651184, F1 0.6930692791938782, AUC 0.8570075757575757
+  Second-Tier acc 0.800000011920929, precision 0.699999988079071, recall 0.6363636255264282, specificity 0.875, F1 0.6666666865348816, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 95
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 96 idx: 40 First Loss : 0.05646812970662722, Second Loss : 0.0004565216215665302 
+epoch: 96 idx: 80 First Loss : 0.03606785874336538, Second Loss : 0.0003662612328478865 
+epoch: 96 idx: 120 First Loss : 0.033214461181773916, Second Loss : 0.00030658281189097634 
+>>>>>>>>>>> Validation Epoch: 96
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8645833333333334
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 96
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 97 idx: 40 First Loss : 0.035420856368023126, Second Loss : 0.0003585885701410163 
+epoch: 97 idx: 80 First Loss : 0.023596335459262718, Second Loss : 0.0002412028278784284 
+epoch: 97 idx: 120 First Loss : 0.03430693210600566, Second Loss : 0.00018114698717675755 
+>>>>>>>>>>> Validation Epoch: 97
+  First-Tier acc 0.8500000238418579, precision 0.8285714387893677, recall 0.6590909361839294, specificity 0.9375, F1 0.73417729139328, AUC 0.8804450757575758
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 97
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 98 idx: 40 First Loss : 0.020958564055951, Second Loss : 0.00012002458402413652 
+epoch: 98 idx: 80 First Loss : 0.0378319685544767, Second Loss : 0.00023955360270786486 
+epoch: 98 idx: 120 First Loss : 0.04421866892744409, Second Loss : 0.00020560555765107105 
+>>>>>>>>>>> Validation Epoch: 98
+  First-Tier acc 0.7928571701049805, precision 0.6595744490623474, recall 0.7045454382896423, specificity 0.8333333134651184, F1 0.6813186407089233, AUC 0.8416193181818181
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 98
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 0.0001
+epoch: 99 idx: 40 First Loss : 0.04238392614761892, Second Loss : 0.00015741903835202463 
+epoch: 99 idx: 80 First Loss : 0.026551347817476766, Second Loss : 0.00011426049153397954 
+epoch: 99 idx: 120 First Loss : 0.03888513474715675, Second Loss : 0.00016617120216070683 
+>>>>>>>>>>> Validation Epoch: 99
+  First-Tier acc 0.8142856955528259, precision 0.7368420958518982, recall 0.6363636255264282, specificity 0.8958333134651184, F1 0.6829268932342529, AUC 0.8527462121212122
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8522727272727273
+ 
+>>>>>>>>>>> Test Epoch: 99
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 100 idx: 40 First Loss : 0.018691909680313756, Second Loss : 0.00013968973277567187 
+epoch: 100 idx: 80 First Loss : 0.019954351110092715, Second Loss : 0.0001420799470969847 
+epoch: 100 idx: 120 First Loss : 0.016095011971242457, Second Loss : 0.00014469780345945557 
+>>>>>>>>>>> Validation Epoch: 100
+  First-Tier acc 0.8142856955528259, precision 0.695652186870575, recall 0.7272727489471436, specificity 0.8541666865348816, F1 0.7111110687255859, AUC 0.8648200757575757
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 100
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 101 idx: 40 First Loss : 0.012594455529790594, Second Loss : 0.00017974004932863608 
+epoch: 101 idx: 80 First Loss : 0.011952421056815866, Second Loss : 0.0001465446209746979 
+epoch: 101 idx: 120 First Loss : 0.014469977551721058, Second Loss : 0.00012571767386972965 
+>>>>>>>>>>> Validation Epoch: 101
+  First-Tier acc 0.8571428656578064, precision 0.9615384340286255, recall 0.5681818127632141, specificity 0.9895833134651184, F1 0.714285671710968, AUC 0.8652935606060607
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8712121212121211
+ 
+>>>>>>>>>>> Test Epoch: 101
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 102 idx: 40 First Loss : 0.00321277677429066, Second Loss : 0.00011731869121955896 
+epoch: 102 idx: 80 First Loss : 0.00399528782350842, Second Loss : 0.00010469962295989177 
+epoch: 102 idx: 120 First Loss : 0.023084149192933032, Second Loss : 0.00010412409566171733 
+>>>>>>>>>>> Validation Epoch: 102
+  First-Tier acc 0.7785714268684387, precision 0.6226415038108826, recall 0.75, specificity 0.7916666865348816, F1 0.6804122924804688, AUC 0.8648200757575758
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8712121212121211
+ 
+>>>>>>>>>>> Test Epoch: 102
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 103 idx: 40 First Loss : 0.04721358227109249, Second Loss : 8.860445504534908e-05 
+epoch: 103 idx: 80 First Loss : 0.03859700922866409, Second Loss : 0.00011130116907001053 
+epoch: 103 idx: 120 First Loss : 0.03020595480903694, Second Loss : 0.00013995996675989866 
+>>>>>>>>>>> Validation Epoch: 103
+  First-Tier acc 0.8571428656578064, precision 0.9615384340286255, recall 0.5681818127632141, specificity 0.9895833134651184, F1 0.714285671710968, AUC 0.8553503787878788
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 103
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 104 idx: 40 First Loss : 0.014833732401717726, Second Loss : 0.00010729833763498676 
+epoch: 104 idx: 80 First Loss : 0.014357974789160722, Second Loss : 0.00011336660461473969 
+epoch: 104 idx: 120 First Loss : 0.0174613279515133, Second Loss : 0.00011750989659867392 
+>>>>>>>>>>> Validation Epoch: 104
+  First-Tier acc 0.8357142806053162, precision 0.8387096524238586, recall 0.5909090638160706, specificity 0.9479166865348816, F1 0.6933333277702332, AUC 0.8636363636363635
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 104
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 105 idx: 40 First Loss : 0.01715488944501544, Second Loss : 0.00013537637833263005 
+epoch: 105 idx: 80 First Loss : 0.029798658843512273, Second Loss : 0.00012399264859510594 
+epoch: 105 idx: 120 First Loss : 0.020969495125380416, Second Loss : 0.0001179304330838941 
+>>>>>>>>>>> Validation Epoch: 105
+  First-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8674242424242423
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 105
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 106 idx: 40 First Loss : 0.08558396626601734, Second Loss : 7.926258646708816e-05 
+epoch: 106 idx: 80 First Loss : 0.05542523811868847, Second Loss : 9.691262007436308e-05 
+epoch: 106 idx: 120 First Loss : 0.04277213102605041, Second Loss : 9.2410808902225e-05 
+>>>>>>>>>>> Validation Epoch: 106
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8731060606060606
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 106
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 107 idx: 40 First Loss : 0.04317819707889612, Second Loss : 0.00019832581567076347 
+epoch: 107 idx: 80 First Loss : 0.0340298183677902, Second Loss : 0.00013288761994649788 
+epoch: 107 idx: 120 First Loss : 0.037805878841208104, Second Loss : 0.00010259376658143064 
+>>>>>>>>>>> Validation Epoch: 107
+  First-Tier acc 0.8571428656578064, precision 0.8999999761581421, recall 0.6136363744735718, specificity 0.96875, F1 0.7297297716140747, AUC 0.8742897727272727
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 107
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 108 idx: 40 First Loss : 0.0026003033503911865, Second Loss : 7.677078346528532e-05 
+epoch: 108 idx: 80 First Loss : 0.036228586596962487, Second Loss : 0.00011363267706068214 
+epoch: 108 idx: 120 First Loss : 0.033049170172832494, Second Loss : 9.423421144489907e-05 
+>>>>>>>>>>> Validation Epoch: 108
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8695549242424242
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 108
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 109 idx: 40 First Loss : 0.04189938023495188, Second Loss : 0.00012789569405260436 
+epoch: 109 idx: 80 First Loss : 0.03355589507027048, Second Loss : 0.00011921362418814141 
+epoch: 109 idx: 120 First Loss : 0.02392588901905081, Second Loss : 0.00010311303055636027 
+>>>>>>>>>>> Validation Epoch: 109
+  First-Tier acc 0.8428571224212646, precision 0.8666666746139526, recall 0.5909090638160706, specificity 0.9583333134651184, F1 0.7027026414871216, AUC 0.8629261363636364
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.8787878787878787
+ 
+>>>>>>>>>>> Test Epoch: 109
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 110 idx: 40 First Loss : 0.004490890621235621, Second Loss : 9.979719635122564e-05 
+epoch: 110 idx: 80 First Loss : 0.005229364551663451, Second Loss : 6.572685612509233e-05 
+epoch: 110 idx: 120 First Loss : 0.008284781456121947, Second Loss : 8.006448583598076e-05 
+>>>>>>>>>>> Validation Epoch: 110
+  First-Tier acc 0.7928571701049805, precision 0.6415094137191772, recall 0.7727272510528564, specificity 0.8020833134651184, F1 0.7010309100151062, AUC 0.8768939393939393
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 110
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 111 idx: 40 First Loss : 0.03749314459537771, Second Loss : 8.406930984161676e-05 
+epoch: 111 idx: 80 First Loss : 0.022371403845723847, Second Loss : 7.53721350212011e-05 
+epoch: 111 idx: 120 First Loss : 0.01573272217116397, Second Loss : 8.439212336768994e-05 
+>>>>>>>>>>> Validation Epoch: 111
+  First-Tier acc 0.8571428656578064, precision 0.9615384340286255, recall 0.5681818127632141, specificity 0.9895833134651184, F1 0.714285671710968, AUC 0.8723958333333334
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 111
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 112 idx: 40 First Loss : 0.003938407986737502, Second Loss : 2.946663885889933e-05 
+epoch: 112 idx: 80 First Loss : 0.014556469203259325, Second Loss : 5.7661000327868804e-05 
+epoch: 112 idx: 120 First Loss : 0.014207814274997569, Second Loss : 0.0001047043566792046 
+>>>>>>>>>>> Validation Epoch: 112
+  First-Tier acc 0.8142856955528259, precision 0.7250000238418579, recall 0.6590909361839294, specificity 0.8854166865348816, F1 0.6904762387275696, AUC 0.8596117424242424
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 112
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 113 idx: 40 First Loss : 0.0068664520457787145, Second Loss : 0.00019238796570615336 
+epoch: 113 idx: 80 First Loss : 0.004671456264696871, Second Loss : 0.00014171349210778672 
+epoch: 113 idx: 120 First Loss : 0.03165943404588489, Second Loss : 0.00010322001492018747 
+>>>>>>>>>>> Validation Epoch: 113
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8522727272727273
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 113
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 114 idx: 40 First Loss : 0.01858628930545052, Second Loss : 0.00014249948722024896 
+epoch: 114 idx: 80 First Loss : 0.011413766923339352, Second Loss : 0.00016195056866772362 
+epoch: 114 idx: 120 First Loss : 0.011620241839810792, Second Loss : 0.00012008746401838503 
+>>>>>>>>>>> Validation Epoch: 114
+  First-Tier acc 0.8142856955528259, precision 0.7045454382896423, recall 0.7045454382896423, specificity 0.8645833134651184, F1 0.7045454382896423, AUC 0.8631628787878788
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8674242424242423
+ 
+>>>>>>>>>>> Test Epoch: 114
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 115 idx: 40 First Loss : 0.011681839907151926, Second Loss : 8.941749852588998e-05 
+epoch: 115 idx: 80 First Loss : 0.0070678987465782935, Second Loss : 8.856775413192963e-05 
+epoch: 115 idx: 120 First Loss : 0.006700740178761559, Second Loss : 8.070332072378506e-05 
+>>>>>>>>>>> Validation Epoch: 115
+  First-Tier acc 0.7928571701049805, precision 0.6470588445663452, recall 0.75, specificity 0.8125, F1 0.6947368383407593, AUC 0.8690814393939393
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 115
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 116 idx: 40 First Loss : 0.011810426560140285, Second Loss : 0.00013296542286376223 
+epoch: 116 idx: 80 First Loss : 0.023389290258720052, Second Loss : 8.51136199864655e-05 
+epoch: 116 idx: 120 First Loss : 0.021836896422595942, Second Loss : 8.566552476191684e-05 
+>>>>>>>>>>> Validation Epoch: 116
+  First-Tier acc 0.75, precision 0.5692307949066162, recall 0.8409090638160706, specificity 0.7083333134651184, F1 0.6788991093635559, AUC 0.8650568181818182
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 116
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 117 idx: 40 First Loss : 0.027632175276831105, Second Loss : 0.00011939563256628816 
+epoch: 117 idx: 80 First Loss : 0.014906976541804085, Second Loss : 9.191299080377747e-05 
+epoch: 117 idx: 120 First Loss : 0.01953437209150053, Second Loss : 8.389614371685875e-05 
+>>>>>>>>>>> Validation Epoch: 117
+  First-Tier acc 0.8071428537368774, precision 0.6808510422706604, recall 0.7272727489471436, specificity 0.84375, F1 0.7032967209815979, AUC 0.8458806818181818
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242423
+ 
+>>>>>>>>>>> Test Epoch: 117
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 118 idx: 40 First Loss : 0.023119527387049744, Second Loss : 4.3914052029592196e-05 
+epoch: 118 idx: 80 First Loss : 0.01570477769947871, Second Loss : 4.9012431047046334e-05 
+epoch: 118 idx: 120 First Loss : 0.017089384874731196, Second Loss : 5.4436474538140565e-05 
+>>>>>>>>>>> Validation Epoch: 118
+  First-Tier acc 0.8285714387893677, precision 0.7941176295280457, recall 0.6136363744735718, specificity 0.9270833134651184, F1 0.692307710647583, AUC 0.8631628787878788
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 118
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 119 idx: 40 First Loss : 0.012380822457799923, Second Loss : 3.875870923017999e-05 
+epoch: 119 idx: 80 First Loss : 0.008454356710736022, Second Loss : 5.159248320669718e-05 
+epoch: 119 idx: 120 First Loss : 0.007887730633555634, Second Loss : 7.180321491754664e-05 
+>>>>>>>>>>> Validation Epoch: 119
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.8638731060606061
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 119
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 120 idx: 40 First Loss : 0.002514726602834827, Second Loss : 5.5901248765266584e-05 
+epoch: 120 idx: 80 First Loss : 0.003241212020605033, Second Loss : 6.684101704381717e-05 
+epoch: 120 idx: 120 First Loss : 0.00896606024576106, Second Loss : 6.40898964210379e-05 
+>>>>>>>>>>> Validation Epoch: 120
+  First-Tier acc 0.8071428537368774, precision 0.6888889074325562, recall 0.7045454382896423, specificity 0.8541666865348816, F1 0.6966292262077332, AUC 0.8520359848484849
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 120
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 121 idx: 40 First Loss : 0.011598455120912376, Second Loss : 6.134117874658784e-05 
+epoch: 121 idx: 80 First Loss : 0.01718971581786093, Second Loss : 7.254474835187708e-05 
+epoch: 121 idx: 120 First Loss : 0.017112046283103175, Second Loss : 6.591542940880639e-05 
+>>>>>>>>>>> Validation Epoch: 121
+  First-Tier acc 0.8071428537368774, precision 0.7179487347602844, recall 0.6363636255264282, specificity 0.8854166865348816, F1 0.6746987700462341, AUC 0.8589015151515152
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 121
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 122 idx: 40 First Loss : 0.021119477210714877, Second Loss : 4.493045917968175e-05 
+epoch: 122 idx: 80 First Loss : 0.025692472481801332, Second Loss : 8.581724156924153e-05 
+epoch: 122 idx: 120 First Loss : 0.018441109165471186, Second Loss : 6.965000914747795e-05 
+>>>>>>>>>>> Validation Epoch: 122
+  First-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8579545454545454
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 122
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 123 idx: 40 First Loss : 0.0036031803934861275, Second Loss : 6.175624812367885e-05 
+epoch: 123 idx: 80 First Loss : 0.01394386514853636, Second Loss : 5.089093375669762e-05 
+epoch: 123 idx: 120 First Loss : 0.011173132787770849, Second Loss : 8.01631747847864e-05 
+>>>>>>>>>>> Validation Epoch: 123
+  First-Tier acc 0.8571428656578064, precision 0.8999999761581421, recall 0.6136363744735718, specificity 0.96875, F1 0.7297297716140747, AUC 0.8541666666666666
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8712121212121211
+ 
+>>>>>>>>>>> Test Epoch: 123
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 124 idx: 40 First Loss : 0.04040608593675188, Second Loss : 7.673686517915002e-05 
+epoch: 124 idx: 80 First Loss : 0.021913500066759184, Second Loss : 0.00013654646147518435 
+epoch: 124 idx: 120 First Loss : 0.016995573012009876, Second Loss : 0.00010495682984833129 
+>>>>>>>>>>> Validation Epoch: 124
+  First-Tier acc 0.7857142686843872, precision 0.625, recall 0.7954545617103577, specificity 0.78125, F1 0.7000000476837158, AUC 0.8723958333333334
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 124
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 125 idx: 40 First Loss : 0.03715231976858604, Second Loss : 4.9839147599861636e-05 
+epoch: 125 idx: 80 First Loss : 0.02306744208530631, Second Loss : 7.765554584047152e-05 
+epoch: 125 idx: 120 First Loss : 0.018957945419847987, Second Loss : 7.67364232545494e-05 
+>>>>>>>>>>> Validation Epoch: 125
+  First-Tier acc 0.7571428418159485, precision 0.578125, recall 0.8409090638160706, specificity 0.71875, F1 0.6851851940155029, AUC 0.8648200757575758
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.8863636363636364
+ 
+>>>>>>>>>>> Test Epoch: 125
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 126 idx: 40 First Loss : 0.035325492936263456, Second Loss : 0.00010607523731032131 
+epoch: 126 idx: 80 First Loss : 0.04237687552002996, Second Loss : 8.344432314153494e-05 
+epoch: 126 idx: 120 First Loss : 0.029336575065931923, Second Loss : 6.748791686105686e-05 
+>>>>>>>>>>> Validation Epoch: 126
+  First-Tier acc 0.8571428656578064, precision 0.8999999761581421, recall 0.6136363744735718, specificity 0.96875, F1 0.7297297716140747, AUC 0.858191287878788
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 126
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 127 idx: 40 First Loss : 0.009099989943581476, Second Loss : 7.566660384235035e-05 
+epoch: 127 idx: 80 First Loss : 0.013586533502009956, Second Loss : 5.603960495808025e-05 
+epoch: 127 idx: 120 First Loss : 0.014281860404670966, Second Loss : 5.119612675681395e-05 
+>>>>>>>>>>> Validation Epoch: 127
+  First-Tier acc 0.8071428537368774, precision 0.6888889074325562, recall 0.7045454382896423, specificity 0.8541666865348816, F1 0.6966292262077332, AUC 0.8480113636363635
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 127
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 128 idx: 40 First Loss : 0.006403468550792013, Second Loss : 9.7146141201776e-05 
+epoch: 128 idx: 80 First Loss : 0.004602590350357616, Second Loss : 6.216035338022508e-05 
+epoch: 128 idx: 120 First Loss : 0.009144622114598632, Second Loss : 6.61731015627609e-05 
+>>>>>>>>>>> Validation Epoch: 128
+  First-Tier acc 0.8642857074737549, precision 1.0, recall 0.5681818127632141, specificity 1.0, F1 0.7246376872062683, AUC 0.8641098484848484
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 128
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 129 idx: 40 First Loss : 0.020575652422567713, Second Loss : 4.679044690156786e-05 
+epoch: 129 idx: 80 First Loss : 0.015875768819863367, Second Loss : 9.273318246059148e-05 
+epoch: 129 idx: 120 First Loss : 0.01644047009519672, Second Loss : 7.318891518988124e-05 
+>>>>>>>>>>> Validation Epoch: 129
+  First-Tier acc 0.7785714268684387, precision 0.60317462682724, recall 0.8636363744735718, specificity 0.7395833134651184, F1 0.7102804183959961, AUC 0.8901515151515151
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 129
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 130 idx: 40 First Loss : 0.013408371060251768, Second Loss : 7.875077953123366e-05 
+epoch: 130 idx: 80 First Loss : 0.00822558804937117, Second Loss : 7.621054461770527e-05 
+epoch: 130 idx: 120 First Loss : 0.006548806709112398, Second Loss : 5.823628549563864e-05 
+>>>>>>>>>>> Validation Epoch: 130
+  First-Tier acc 0.8571428656578064, precision 0.9615384340286255, recall 0.5681818127632141, specificity 0.9895833134651184, F1 0.714285671710968, AUC 0.8501420454545454
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 130
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 131 idx: 40 First Loss : 0.0009823231505944109, Second Loss : 8.556239779959896e-05 
+epoch: 131 idx: 80 First Loss : 0.0014633008638297086, Second Loss : 5.8060909022117355e-05 
+epoch: 131 idx: 120 First Loss : 0.0018038351971577289, Second Loss : 7.893927856811681e-05 
+>>>>>>>>>>> Validation Epoch: 131
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.8517992424242424
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 131
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 132 idx: 40 First Loss : 0.02890050915303206, Second Loss : 0.00011272670896556036 
+epoch: 132 idx: 80 First Loss : 0.021094274660382516, Second Loss : 8.386572525918013e-05 
+epoch: 132 idx: 120 First Loss : 0.018215450340700913, Second Loss : 6.333790141640112e-05 
+>>>>>>>>>>> Validation Epoch: 132
+  First-Tier acc 0.8357142806053162, precision 0.800000011920929, recall 0.6363636255264282, specificity 0.9270833134651184, F1 0.7088606953620911, AUC 0.8465909090909092
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8560606060606061
+ 
+>>>>>>>>>>> Test Epoch: 132
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 133 idx: 40 First Loss : 0.01362039643170192, Second Loss : 9.390034702310146e-05 
+epoch: 133 idx: 80 First Loss : 0.00807558284336789, Second Loss : 7.534536537905368e-05 
+epoch: 133 idx: 120 First Loss : 0.007490660386151996, Second Loss : 6.115776984240521e-05 
+>>>>>>>>>>> Validation Epoch: 133
+  First-Tier acc 0.8214285969734192, precision 0.686274528503418, recall 0.7954545617103577, specificity 0.8333333134651184, F1 0.736842155456543, AUC 0.900094696969697
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 133
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 134 idx: 40 First Loss : 0.008839166910100005, Second Loss : 8.448155745082176e-05 
+epoch: 134 idx: 80 First Loss : 0.006924007037789792, Second Loss : 5.3632074724241366e-05 
+epoch: 134 idx: 120 First Loss : 0.008324908516466915, Second Loss : 4.724825950918425e-05 
+>>>>>>>>>>> Validation Epoch: 134
+  First-Tier acc 0.8071428537368774, precision 0.6976743936538696, recall 0.6818181872367859, specificity 0.8645833134651184, F1 0.6896551847457886, AUC 0.8529829545454545
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 134
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 135 idx: 40 First Loss : 0.0009078737599296005, Second Loss : 6.12542373719549e-05 
+epoch: 135 idx: 80 First Loss : 0.0028290184592725254, Second Loss : 5.8251869425607336e-05 
+epoch: 135 idx: 120 First Loss : 0.003822235739268957, Second Loss : 4.762461887501957e-05 
+>>>>>>>>>>> Validation Epoch: 135
+  First-Tier acc 0.7785714268684387, precision 0.644444465637207, recall 0.6590909361839294, specificity 0.8333333134651184, F1 0.651685357093811, AUC 0.8296638257575758
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8522727272727273
+ 
+>>>>>>>>>>> Test Epoch: 135
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 136 idx: 40 First Loss : 0.004588768015279498, Second Loss : 8.230776581861222e-05 
+epoch: 136 idx: 80 First Loss : 0.01685675775401272, Second Loss : 5.549157175730457e-05 
+epoch: 136 idx: 120 First Loss : 0.01772903604739682, Second Loss : 6.401383586898865e-05 
+>>>>>>>>>>> Validation Epoch: 136
+  First-Tier acc 0.8142856955528259, precision 0.7045454382896423, recall 0.7045454382896423, specificity 0.8645833134651184, F1 0.7045454382896423, AUC 0.8799715909090909
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 136
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 137 idx: 40 First Loss : 0.015011302466410114, Second Loss : 6.935178720492984e-05 
+epoch: 137 idx: 80 First Loss : 0.02330191713235443, Second Loss : 5.013803702613728e-05 
+epoch: 137 idx: 120 First Loss : 0.019854121899936437, Second Loss : 4.718782745397239e-05 
+>>>>>>>>>>> Validation Epoch: 137
+  First-Tier acc 0.8428571224212646, precision 0.8666666746139526, recall 0.5909090638160706, specificity 0.9583333134651184, F1 0.7027026414871216, AUC 0.8541666666666667
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8560606060606061
+ 
+>>>>>>>>>>> Test Epoch: 137
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 138 idx: 40 First Loss : 0.021234734647730135, Second Loss : 3.072624989322037e-05 
+epoch: 138 idx: 80 First Loss : 0.01370203687492939, Second Loss : 4.805626305168786e-05 
+epoch: 138 idx: 120 First Loss : 0.012684883854873163, Second Loss : 5.094117025450373e-05 
+>>>>>>>>>>> Validation Epoch: 138
+  First-Tier acc 0.8428571224212646, precision 0.8928571343421936, recall 0.5681818127632141, specificity 0.96875, F1 0.694444477558136, AUC 0.8345170454545454
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 138
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 139 idx: 40 First Loss : 0.005336652770796491, Second Loss : 1.3979951946119228e-05 
+epoch: 139 idx: 80 First Loss : 0.005700809861209066, Second Loss : 4.945938942011452e-05 
+epoch: 139 idx: 120 First Loss : 0.004286459206852555, Second Loss : 4.439525492975586e-05 
+>>>>>>>>>>> Validation Epoch: 139
+  First-Tier acc 0.800000011920929, precision 0.699999988079071, recall 0.6363636255264282, specificity 0.875, F1 0.6666666865348816, AUC 0.842092803030303
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 139
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 140 idx: 40 First Loss : 0.0038841631944748654, Second Loss : 0.00010577730391698736 
+epoch: 140 idx: 80 First Loss : 0.005282005125672918, Second Loss : 6.458703289355939e-05 
+epoch: 140 idx: 120 First Loss : 0.003916134359324393, Second Loss : 4.688058311691871e-05 
+>>>>>>>>>>> Validation Epoch: 140
+  First-Tier acc 0.8214285969734192, precision 0.7435897588729858, recall 0.6590909361839294, specificity 0.8958333134651184, F1 0.6987951993942261, AUC 0.8619791666666667
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 140
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 141 idx: 40 First Loss : 0.011569458029634916, Second Loss : 2.815573545085215e-05 
+epoch: 141 idx: 80 First Loss : 0.0076785954131690206, Second Loss : 2.856648952418439e-05 
+epoch: 141 idx: 120 First Loss : 0.011534948093760277, Second Loss : 5.249029737595852e-05 
+>>>>>>>>>>> Validation Epoch: 141
+  First-Tier acc 0.7285714149475098, precision 0.5405405163764954, recall 0.9090909361839294, specificity 0.6458333134651184, F1 0.6779660582542419, AUC 0.8771306818181819
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 141
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 142 idx: 40 First Loss : 0.008115563020724182, Second Loss : 5.779873953724035e-05 
+epoch: 142 idx: 80 First Loss : 0.02078335760907244, Second Loss : 3.775032559261149e-05 
+epoch: 142 idx: 120 First Loss : 0.0147579064519095, Second Loss : 4.749650042583653e-05 
+>>>>>>>>>>> Validation Epoch: 142
+  First-Tier acc 0.7285714149475098, precision 0.5428571701049805, recall 0.8636363744735718, specificity 0.6666666865348816, F1 0.6666666865348816, AUC 0.8510890151515151
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 142
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 143 idx: 40 First Loss : 0.0007889883875847658, Second Loss : 4.074269247293927e-05 
+epoch: 143 idx: 80 First Loss : 0.006894019867684875, Second Loss : 3.678216787310618e-05 
+epoch: 143 idx: 120 First Loss : 0.005174137965710202, Second Loss : 3.838275249356353e-05 
+>>>>>>>>>>> Validation Epoch: 143
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8778409090909091
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 143
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 144 idx: 40 First Loss : 0.011913369246673255, Second Loss : 4.4102342408436354e-05 
+epoch: 144 idx: 80 First Loss : 0.010156585890507941, Second Loss : 4.019837618800537e-05 
+epoch: 144 idx: 120 First Loss : 0.0078088391624876385, Second Loss : 3.3644208234839824e-05 
+>>>>>>>>>>> Validation Epoch: 144
+  First-Tier acc 0.8285714387893677, precision 0.75, recall 0.6818181872367859, specificity 0.8958333134651184, F1 0.714285671710968, AUC 0.8612689393939393
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 144
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 145 idx: 40 First Loss : 0.028208667005867126, Second Loss : 3.426593773614428e-05 
+epoch: 145 idx: 80 First Loss : 0.03351707362755842, Second Loss : 2.5577001445675762e-05 
+epoch: 145 idx: 120 First Loss : 0.041796969626234554, Second Loss : 4.335989792145038e-05 
+>>>>>>>>>>> Validation Epoch: 145
+  First-Tier acc 0.8142856955528259, precision 0.7647058963775635, recall 0.5909090638160706, specificity 0.9166666865348816, F1 0.6666666865348816, AUC 0.8432765151515151
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.8825757575757575
+ 
+>>>>>>>>>>> Test Epoch: 145
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 146 idx: 40 First Loss : 0.009147963495746581, Second Loss : 4.453418129131137e-05 
+epoch: 146 idx: 80 First Loss : 0.008495705128598274, Second Loss : 4.137215267832062e-05 
+epoch: 146 idx: 120 First Loss : 0.00628881027213429, Second Loss : 4.494527044934434e-05 
+>>>>>>>>>>> Validation Epoch: 146
+  First-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8579545454545453
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 146
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 147 idx: 40 First Loss : 0.007546337360158617, Second Loss : 2.038098452228354e-05 
+epoch: 147 idx: 80 First Loss : 0.02575710130476345, Second Loss : 7.694041356192116e-05 
+epoch: 147 idx: 120 First Loss : 0.03300037049749823, Second Loss : 7.423676217512091e-05 
+>>>>>>>>>>> Validation Epoch: 147
+  First-Tier acc 0.8285714387893677, precision 0.7631579041481018, recall 0.6590909361839294, specificity 0.90625, F1 0.7073171138763428, AUC 0.8652935606060607
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 147
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 148 idx: 40 First Loss : 0.0170428370251563, Second Loss : 2.8006365903721075e-05 
+epoch: 148 idx: 80 First Loss : 0.017064944801604608, Second Loss : 3.9114569004805586e-05 
+epoch: 148 idx: 120 First Loss : 0.011955374773431723, Second Loss : 3.130648198137465e-05 
+>>>>>>>>>>> Validation Epoch: 148
+  First-Tier acc 0.8071428537368774, precision 0.7297297120094299, recall 0.6136363744735718, specificity 0.8958333134651184, F1 0.6666666269302368, AUC 0.8468276515151515
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 148
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 149 idx: 40 First Loss : 0.01372646313278878, Second Loss : 5.7394741387284395e-05 
+epoch: 149 idx: 80 First Loss : 0.015618800484596917, Second Loss : 4.84423683995594e-05 
+epoch: 149 idx: 120 First Loss : 0.016004680064163068, Second Loss : 4.392860094556047e-05 
+>>>>>>>>>>> Validation Epoch: 149
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8636363636363635
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 149
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 150 idx: 40 First Loss : 0.004081473538094116, Second Loss : 7.455111907468392e-05 
+epoch: 150 idx: 80 First Loss : 0.003271720436903447, Second Loss : 4.6325712547456986e-05 
+epoch: 150 idx: 120 First Loss : 0.008239633080900846, Second Loss : 4.249452998662899e-05 
+>>>>>>>>>>> Validation Epoch: 150
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.852035984848485
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 150
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 151 idx: 40 First Loss : 0.016348368700175798, Second Loss : 3.5711767901602796e-05 
+epoch: 151 idx: 80 First Loss : 0.02869575523926322, Second Loss : 2.7706661205151305e-05 
+epoch: 151 idx: 120 First Loss : 0.019729609219573282, Second Loss : 2.3364492642959554e-05 
+>>>>>>>>>>> Validation Epoch: 151
+  First-Tier acc 0.8357142806053162, precision 0.8181818127632141, recall 0.6136363744735718, specificity 0.9375, F1 0.701298713684082, AUC 0.8643465909090909
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 151
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 152 idx: 40 First Loss : 0.04518864072462634, Second Loss : 2.4703916936097414e-05 
+epoch: 152 idx: 80 First Loss : 0.023583552859881785, Second Loss : 2.1326448220104765e-05 
+epoch: 152 idx: 120 First Loss : 0.026815138799088582, Second Loss : 2.702510854278491e-05 
+>>>>>>>>>>> Validation Epoch: 152
+  First-Tier acc 0.8285714387893677, precision 0.75, recall 0.6818181872367859, specificity 0.8958333134651184, F1 0.714285671710968, AUC 0.8596117424242424
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242423
+ 
+>>>>>>>>>>> Test Epoch: 152
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 153 idx: 40 First Loss : 0.002555839361883372, Second Loss : 1.3767968535560727e-05 
+epoch: 153 idx: 80 First Loss : 0.005465648661285449, Second Loss : 3.293722944164301e-05 
+epoch: 153 idx: 120 First Loss : 0.006143388470158702, Second Loss : 3.648927967911201e-05 
+>>>>>>>>>>> Validation Epoch: 153
+  First-Tier acc 0.8357142806053162, precision 0.8387096524238586, recall 0.5909090638160706, specificity 0.9479166865348816, F1 0.6933333277702332, AUC 0.8553503787878788
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 153
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 154 idx: 40 First Loss : 0.013112128888762698, Second Loss : 1.17745098664912e-05 
+epoch: 154 idx: 80 First Loss : 0.009126777102095928, Second Loss : 1.9144967914375143e-05 
+epoch: 154 idx: 120 First Loss : 0.030204027376880067, Second Loss : 3.7552036934348126e-05 
+>>>>>>>>>>> Validation Epoch: 154
+  First-Tier acc 0.7857142686843872, precision 0.6206896305084229, recall 0.8181818127632141, specificity 0.7708333134651184, F1 0.7058823108673096, AUC 0.8496685606060607
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 154
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 155 idx: 40 First Loss : 0.029081393599346937, Second Loss : 6.1011762533169646e-05 
+epoch: 155 idx: 80 First Loss : 0.01592133430989904, Second Loss : 3.6273925890650814e-05 
+epoch: 155 idx: 120 First Loss : 0.024132723222179207, Second Loss : 3.301228416360639e-05 
+>>>>>>>>>>> Validation Epoch: 155
+  First-Tier acc 0.800000011920929, precision 0.6904761791229248, recall 0.6590909361839294, specificity 0.8645833134651184, F1 0.674418568611145, AUC 0.8368844696969697
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242425
+ 
+>>>>>>>>>>> Test Epoch: 155
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 156 idx: 40 First Loss : 0.001367743029391022, Second Loss : 3.56169804323514e-05 
+epoch: 156 idx: 80 First Loss : 0.007487996051993661, Second Loss : 2.7084087831319437e-05 
+epoch: 156 idx: 120 First Loss : 0.005975378972860312, Second Loss : 2.7836348627907626e-05 
+>>>>>>>>>>> Validation Epoch: 156
+  First-Tier acc 0.8428571224212646, precision 0.8235294222831726, recall 0.6363636255264282, specificity 0.9375, F1 0.7179487347602844, AUC 0.8624526515151515
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8712121212121211
+ 
+>>>>>>>>>>> Test Epoch: 156
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 157 idx: 40 First Loss : 0.02942582262218991, Second Loss : 3.080845363285789e-05 
+epoch: 157 idx: 80 First Loss : 0.01970605845572706, Second Loss : 4.501679618558185e-05 
+epoch: 157 idx: 120 First Loss : 0.022280862423221966, Second Loss : 3.821349152056304e-05 
+>>>>>>>>>>> Validation Epoch: 157
+  First-Tier acc 0.8357142806053162, precision 0.800000011920929, recall 0.6363636255264282, specificity 0.9270833134651184, F1 0.7088606953620911, AUC 0.8541666666666667
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 157
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 158 idx: 40 First Loss : 0.04626233586582984, Second Loss : 5.5406110970146474e-05 
+epoch: 158 idx: 80 First Loss : 0.02932309347695359, Second Loss : 4.4352504736266954e-05 
+epoch: 158 idx: 120 First Loss : 0.020461138378494916, Second Loss : 3.3117719652094496e-05 
+>>>>>>>>>>> Validation Epoch: 158
+  First-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8441051136363638
+  Second-Tier acc 0.800000011920929, precision 0.6666666865348816, recall 0.7272727489471436, specificity 0.8333333134651184, F1 0.6956521272659302, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 158
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 159 idx: 40 First Loss : 0.006026213922834245, Second Loss : 1.2501830025435368e-05 
+epoch: 159 idx: 80 First Loss : 0.003965953771661113, Second Loss : 2.409392298412527e-05 
+epoch: 159 idx: 120 First Loss : 0.012092132508271547, Second Loss : 2.4339185230933445e-05 
+>>>>>>>>>>> Validation Epoch: 159
+  First-Tier acc 0.8357142806053162, precision 0.8387096524238586, recall 0.5909090638160706, specificity 0.9479166865348816, F1 0.6933333277702332, AUC 0.847064393939394
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 159
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 160 idx: 40 First Loss : 0.0011146304077868762, Second Loss : 1.4271847946645267e-05 
+epoch: 160 idx: 80 First Loss : 0.020369789742191457, Second Loss : 2.5314934467868254e-05 
+epoch: 160 idx: 120 First Loss : 0.024744406017668297, Second Loss : 4.824647937091697e-05 
+>>>>>>>>>>> Validation Epoch: 160
+  First-Tier acc 0.8357142806053162, precision 0.8181818127632141, recall 0.6136363744735718, specificity 0.9375, F1 0.701298713684082, AUC 0.8489583333333334
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 160
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 161 idx: 40 First Loss : 0.023710429721828775, Second Loss : 0.00016272196989053356 
+epoch: 161 idx: 80 First Loss : 0.01288799609676694, Second Loss : 9.19907244965934e-05 
+epoch: 161 idx: 120 First Loss : 0.00920947154823016, Second Loss : 6.543977018331759e-05 
+>>>>>>>>>>> Validation Epoch: 161
+  First-Tier acc 0.8285714387893677, precision 0.7631579041481018, recall 0.6590909361839294, specificity 0.90625, F1 0.7073171138763428, AUC 0.8591382575757577
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 161
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 162 idx: 40 First Loss : 0.013585157484634536, Second Loss : 1.1050440314264165e-05 
+epoch: 162 idx: 80 First Loss : 0.00802758193783939, Second Loss : 1.4926009405158424e-05 
+epoch: 162 idx: 120 First Loss : 0.0063389350800714915, Second Loss : 2.58572401251674e-05 
+>>>>>>>>>>> Validation Epoch: 162
+  First-Tier acc 0.7428571581840515, precision 0.5555555820465088, recall 0.9090909361839294, specificity 0.6666666865348816, F1 0.6896551847457886, AUC 0.8771306818181819
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8749999999999999
+ 
+>>>>>>>>>>> Test Epoch: 162
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 163 idx: 40 First Loss : 0.05047041011323863, Second Loss : 2.692994115260916e-05 
+epoch: 163 idx: 80 First Loss : 0.026500081407670174, Second Loss : 3.142482806381963e-05 
+epoch: 163 idx: 120 First Loss : 0.02099992967673844, Second Loss : 2.815071150793121e-05 
+>>>>>>>>>>> Validation Epoch: 163
+  First-Tier acc 0.8357142806053162, precision 0.8387096524238586, recall 0.5909090638160706, specificity 0.9479166865348816, F1 0.6933333277702332, AUC 0.8496685606060606
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8749999999999999
+ 
+>>>>>>>>>>> Test Epoch: 163
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 164 idx: 40 First Loss : 0.005110630042410946, Second Loss : 2.0178364011336213e-05 
+epoch: 164 idx: 80 First Loss : 0.0034023736527419857, Second Loss : 1.654856659634163e-05 
+epoch: 164 idx: 120 First Loss : 0.004158707149246155, Second Loss : 2.0549344277872215e-05 
+>>>>>>>>>>> Validation Epoch: 164
+  First-Tier acc 0.8500000238418579, precision 0.8965517282485962, recall 0.5909090638160706, specificity 0.96875, F1 0.7123287320137024, AUC 0.8383049242424243
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 164
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 165 idx: 40 First Loss : 0.0046352440726018075, Second Loss : 6.1749475239736284e-06 
+epoch: 165 idx: 80 First Loss : 0.0052143140000826095, Second Loss : 9.743665406070079e-06 
+epoch: 165 idx: 120 First Loss : 0.004823510702706102, Second Loss : 2.798745662110728e-05 
+>>>>>>>>>>> Validation Epoch: 165
+  First-Tier acc 0.8500000238418579, precision 1.0, recall 0.5227272510528564, specificity 1.0, F1 0.6865671277046204, AUC 0.8615056818181819
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8863636363636364
+ 
+>>>>>>>>>>> Test Epoch: 165
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 166 idx: 40 First Loss : 0.018628301578741003, Second Loss : 1.6223862984077188e-05 
+epoch: 166 idx: 80 First Loss : 0.009953580014334306, Second Loss : 1.95279296465678e-05 
+epoch: 166 idx: 120 First Loss : 0.007374622411142898, Second Loss : 1.973277015038614e-05 
+>>>>>>>>>>> Validation Epoch: 166
+  First-Tier acc 0.7428571581840515, precision 0.5625, recall 0.8181818127632141, specificity 0.7083333134651184, F1 0.6666666865348816, AUC 0.8525094696969697
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 166
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 167 idx: 40 First Loss : 0.002948045865723259, Second Loss : 2.6414697735077653e-05 
+epoch: 167 idx: 80 First Loss : 0.013761659942886695, Second Loss : 2.045053681403175e-05 
+epoch: 167 idx: 120 First Loss : 0.009896037927849832, Second Loss : 2.2237060768285725e-05 
+>>>>>>>>>>> Validation Epoch: 167
+  First-Tier acc 0.8500000238418579, precision 0.8965517282485962, recall 0.5909090638160706, specificity 0.96875, F1 0.7123287320137024, AUC 0.8693181818181818
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8863636363636364
+ 
+>>>>>>>>>>> Test Epoch: 167
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 168 idx: 40 First Loss : 0.012137368020742612, Second Loss : 2.8419359832021486e-05 
+epoch: 168 idx: 80 First Loss : 0.007995032691062564, Second Loss : 2.8614492809797555e-05 
+epoch: 168 idx: 120 First Loss : 0.010853283985196234, Second Loss : 2.3424285889639407e-05 
+>>>>>>>>>>> Validation Epoch: 168
+  First-Tier acc 0.7928571701049805, precision 0.6470588445663452, recall 0.75, specificity 0.8125, F1 0.6947368383407593, AUC 0.8728693181818182
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8863636363636364
+ 
+>>>>>>>>>>> Test Epoch: 168
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 169 idx: 40 First Loss : 0.0019785008167218622, Second Loss : 1.6423399758025424e-05 
+epoch: 169 idx: 80 First Loss : 0.0036869833931056474, Second Loss : 2.08100829770963e-05 
+epoch: 169 idx: 120 First Loss : 0.004956644549843118, Second Loss : 1.9579306747156504e-05 
+>>>>>>>>>>> Validation Epoch: 169
+  First-Tier acc 0.8214285969734192, precision 0.7567567825317383, recall 0.6363636255264282, specificity 0.90625, F1 0.6913580298423767, AUC 0.8529829545454545
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 169
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 170 idx: 40 First Loss : 0.03876099746224213, Second Loss : 1.313914509744052e-05 
+epoch: 170 idx: 80 First Loss : 0.035144230148092606, Second Loss : 2.9627442420210316e-05 
+epoch: 170 idx: 120 First Loss : 0.0236176595772001, Second Loss : 2.360595212032024e-05 
+>>>>>>>>>>> Validation Epoch: 170
+  First-Tier acc 0.8714285492897034, precision 1.0, recall 0.5909090638160706, specificity 1.0, F1 0.7428571581840515, AUC 0.8802083333333334
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 170
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 171 idx: 40 First Loss : 0.0038597689707998485, Second Loss : 1.6446975200423708e-05 
+epoch: 171 idx: 80 First Loss : 0.0023277344216630523, Second Loss : 1.704860148041831e-05 
+epoch: 171 idx: 120 First Loss : 0.014141897288786669, Second Loss : 1.6674317700153077e-05 
+>>>>>>>>>>> Validation Epoch: 171
+  First-Tier acc 0.8571428656578064, precision 1.0, recall 0.5454545617103577, specificity 1.0, F1 0.7058823704719543, AUC 0.8560606060606062
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 171
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 172 idx: 40 First Loss : 0.020503617603866785, Second Loss : 3.872858493281228e-05 
+epoch: 172 idx: 80 First Loss : 0.012452721426986103, Second Loss : 2.8535448965882894e-05 
+epoch: 172 idx: 120 First Loss : 0.016615968830932578, Second Loss : 2.9509590653435207e-05 
+>>>>>>>>>>> Validation Epoch: 172
+  First-Tier acc 0.8071428537368774, precision 0.6888889074325562, recall 0.7045454382896423, specificity 0.8541666865348816, F1 0.6966292262077332, AUC 0.8633996212121212
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8863636363636364
+ 
+>>>>>>>>>>> Test Epoch: 172
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 173 idx: 40 First Loss : 0.006377083052316834, Second Loss : 1.319870687073177e-05 
+epoch: 173 idx: 80 First Loss : 0.003871029492516698, Second Loss : 2.8942893362238208e-05 
+epoch: 173 idx: 120 First Loss : 0.005885481108664218, Second Loss : 2.90712182425897e-05 
+>>>>>>>>>>> Validation Epoch: 173
+  First-Tier acc 0.800000011920929, precision 0.6818181872367859, recall 0.6818181872367859, specificity 0.8541666865348816, F1 0.6818181872367859, AUC 0.8499053030303031
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 173
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 174 idx: 40 First Loss : 0.04798686120353386, Second Loss : 2.2519835397893927e-05 
+epoch: 174 idx: 80 First Loss : 0.04265370240153312, Second Loss : 2.5231584155971377e-05 
+epoch: 174 idx: 120 First Loss : 0.029060653405180846, Second Loss : 2.170733821251029e-05 
+>>>>>>>>>>> Validation Epoch: 174
+  First-Tier acc 0.8285714387893677, precision 0.7631579041481018, recall 0.6590909361839294, specificity 0.90625, F1 0.7073171138763428, AUC 0.8484848484848485
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 174
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 175 idx: 40 First Loss : 0.01218378864268459, Second Loss : 2.819288098034889e-05 
+epoch: 175 idx: 80 First Loss : 0.008968589824836925, Second Loss : 2.929798637536507e-05 
+epoch: 175 idx: 120 First Loss : 0.015651204876779682, Second Loss : 2.6143828296731896e-05 
+>>>>>>>>>>> Validation Epoch: 175
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8607954545454546
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8863636363636364
+ 
+>>>>>>>>>>> Test Epoch: 175
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 176 idx: 40 First Loss : 0.0029688597533407803, Second Loss : 3.2497150478327794e-05 
+epoch: 176 idx: 80 First Loss : 0.005096053247562793, Second Loss : 2.887977175500822e-05 
+epoch: 176 idx: 120 First Loss : 0.007395540601524549, Second Loss : 2.865191206495865e-05 
+>>>>>>>>>>> Validation Epoch: 176
+  First-Tier acc 0.8214285969734192, precision 0.7567567825317383, recall 0.6363636255264282, specificity 0.90625, F1 0.6913580298423767, AUC 0.8650568181818182
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 176
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 177 idx: 40 First Loss : 0.004653199778715589, Second Loss : 9.229634068219639e-05 
+epoch: 177 idx: 80 First Loss : 0.007409031521144982, Second Loss : 5.648675397287306e-05 
+epoch: 177 idx: 120 First Loss : 0.010229454614788006, Second Loss : 4.3897183360345574e-05 
+>>>>>>>>>>> Validation Epoch: 177
+  First-Tier acc 0.8214285969734192, precision 0.7317073345184326, recall 0.6818181872367859, specificity 0.8854166865348816, F1 0.7058823108673096, AUC 0.8731060606060608
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 177
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 178 idx: 40 First Loss : 0.0027205220697629428, Second Loss : 2.6510292241788137e-05 
+epoch: 178 idx: 80 First Loss : 0.009873149864899044, Second Loss : 1.998866294998791e-05 
+epoch: 178 idx: 120 First Loss : 0.008516670214400494, Second Loss : 1.6760864200549008e-05 
+>>>>>>>>>>> Validation Epoch: 178
+  First-Tier acc 0.8285714387893677, precision 0.7631579041481018, recall 0.6590909361839294, specificity 0.90625, F1 0.7073171138763428, AUC 0.8768939393939394
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 178
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 179 idx: 40 First Loss : 0.004603713172555502, Second Loss : 1.902267852376127e-05 
+epoch: 179 idx: 80 First Loss : 0.0028287316766629545, Second Loss : 1.782442387892047e-05 
+epoch: 179 idx: 120 First Loss : 0.005154288166237553, Second Loss : 2.4828419716686292e-05 
+>>>>>>>>>>> Validation Epoch: 179
+  First-Tier acc 0.7571428418159485, precision 0.5757575631141663, recall 0.8636363744735718, specificity 0.7083333134651184, F1 0.6909090280532837, AUC 0.8600852272727273
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 179
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 180 idx: 40 First Loss : 0.0011460283765458712, Second Loss : 9.709320350026474e-06 
+epoch: 180 idx: 80 First Loss : 0.0015721579647883567, Second Loss : 1.626193421140343e-05 
+epoch: 180 idx: 120 First Loss : 0.009453738419756934, Second Loss : 1.5986924872220715e-05 
+>>>>>>>>>>> Validation Epoch: 180
+  First-Tier acc 0.75, precision 0.5652173757553101, recall 0.8863636255264282, specificity 0.6875, F1 0.6902654767036438, AUC 0.8799715909090909
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 180
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 181 idx: 40 First Loss : 0.006311016834352668, Second Loss : 1.663478937139473e-05 
+epoch: 181 idx: 80 First Loss : 0.009873955993343975, Second Loss : 2.0616553043062423e-05 
+epoch: 181 idx: 120 First Loss : 0.006960206898101943, Second Loss : 1.69251818759264e-05 
+>>>>>>>>>>> Validation Epoch: 181
+  First-Tier acc 0.8642857074737549, precision 1.0, recall 0.5681818127632141, specificity 1.0, F1 0.7246376872062683, AUC 0.8705018939393939
+  Second-Tier acc 0.800000011920929, precision 0.699999988079071, recall 0.6363636255264282, specificity 0.875, F1 0.6666666865348816, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 181
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 182 idx: 40 First Loss : 0.024175196520970842, Second Loss : 1.7146697130421273e-05 
+epoch: 182 idx: 80 First Loss : 0.013285468288819713, Second Loss : 1.745235473507023e-05 
+epoch: 182 idx: 120 First Loss : 0.009456161360236326, Second Loss : 1.4502832496058696e-05 
+>>>>>>>>>>> Validation Epoch: 182
+  First-Tier acc 0.8285714387893677, precision 0.7631579041481018, recall 0.6590909361839294, specificity 0.90625, F1 0.7073171138763428, AUC 0.8477746212121212
+  Second-Tier acc 0.7428571581840515, precision 0.5625, recall 0.8181818127632141, specificity 0.7083333134651184, F1 0.6666666865348816, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 182
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 183 idx: 40 First Loss : 0.004475462679972253, Second Loss : 1.709996626697574e-05 
+epoch: 183 idx: 80 First Loss : 0.0027317828191574024, Second Loss : 1.8586088573613323e-05 
+epoch: 183 idx: 120 First Loss : 0.0024093368552811373, Second Loss : 1.8432220485801545e-05 
+>>>>>>>>>>> Validation Epoch: 183
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8612689393939394
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8787878787878788
+ 
+>>>>>>>>>>> Test Epoch: 183
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 184 idx: 40 First Loss : 0.024352516855012142, Second Loss : 1.39678865634707e-05 
+epoch: 184 idx: 80 First Loss : 0.016979455023608824, Second Loss : 1.0609315565357492e-05 
+epoch: 184 idx: 120 First Loss : 0.012888630861678447, Second Loss : 2.029853527899898e-05 
+>>>>>>>>>>> Validation Epoch: 184
+  First-Tier acc 0.8571428656578064, precision 0.8999999761581421, recall 0.6136363744735718, specificity 0.96875, F1 0.7297297716140747, AUC 0.8709753787878787
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8825757575757576
+ 
+>>>>>>>>>>> Test Epoch: 184
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 185 idx: 40 First Loss : 0.0026032300224610337, Second Loss : 1.2340737352900533e-05 
+epoch: 185 idx: 80 First Loss : 0.022927133418876443, Second Loss : 1.550398684058152e-05 
+epoch: 185 idx: 120 First Loss : 0.016572420495482375, Second Loss : 1.803844372491407e-05 
+>>>>>>>>>>> Validation Epoch: 185
+  First-Tier acc 0.8357142806053162, precision 0.800000011920929, recall 0.6363636255264282, specificity 0.9270833134651184, F1 0.7088606953620911, AUC 0.8574810606060606
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8749999999999999
+ 
+>>>>>>>>>>> Test Epoch: 185
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 186 idx: 40 First Loss : 0.0035027026144547335, Second Loss : 6.776952482567822e-06 
+epoch: 186 idx: 80 First Loss : 0.005990998115491486, Second Loss : 2.5300588284249414e-05 
+epoch: 186 idx: 120 First Loss : 0.009720798856643734, Second Loss : 2.0142236208601596e-05 
+>>>>>>>>>>> Validation Epoch: 186
+  First-Tier acc 0.8428571224212646, precision 0.8666666746139526, recall 0.5909090638160706, specificity 0.9583333134651184, F1 0.7027026414871216, AUC 0.8607954545454546
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.875
+ 
+>>>>>>>>>>> Test Epoch: 186
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 187 idx: 40 First Loss : 0.003488455344629671, Second Loss : 9.569216075000497e-06 
+epoch: 187 idx: 80 First Loss : 0.017914547122934544, Second Loss : 9.493241456670632e-06 
+epoch: 187 idx: 120 First Loss : 0.012765300334189893, Second Loss : 1.272513970456875e-05 
+>>>>>>>>>>> Validation Epoch: 187
+  First-Tier acc 0.8071428537368774, precision 0.6808510422706604, recall 0.7272727489471436, specificity 0.84375, F1 0.7032967209815979, AUC 0.8515625
+  Second-Tier acc 0.8571428656578064, precision 0.875, recall 0.6363636255264282, specificity 0.9583333134651184, F1 0.7368420958518982, AUC 0.8674242424242423
+ 
+>>>>>>>>>>> Test Epoch: 187
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 188 idx: 40 First Loss : 0.0007477501815368548, Second Loss : 2.483770034551469e-05 
+epoch: 188 idx: 80 First Loss : 0.0017713659341322963, Second Loss : 2.0433610382220024e-05 
+epoch: 188 idx: 120 First Loss : 0.001362939930935969, Second Loss : 1.8322023005505153e-05 
+>>>>>>>>>>> Validation Epoch: 188
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8506155303030303
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.8901515151515151
+ 
+>>>>>>>>>>> Test Epoch: 188
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 189 idx: 40 First Loss : 0.025169469722899684, Second Loss : 2.5241939695774818e-05 
+epoch: 189 idx: 80 First Loss : 0.014267135136579689, Second Loss : 2.206755967266716e-05 
+epoch: 189 idx: 120 First Loss : 0.011752759733393781, Second Loss : 2.7791287777449252e-05 
+>>>>>>>>>>> Validation Epoch: 189
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8513257575757577
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 189
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 190 idx: 40 First Loss : 0.0036763633464623525, Second Loss : 1.4909603400603543e-05 
+epoch: 190 idx: 80 First Loss : 0.0024093237182670536, Second Loss : 1.7336692072156268e-05 
+epoch: 190 idx: 120 First Loss : 0.010538017749990185, Second Loss : 1.5283884600769682e-05 
+>>>>>>>>>>> Validation Epoch: 190
+  First-Tier acc 0.8428571224212646, precision 0.84375, recall 0.6136363744735718, specificity 0.9479166865348816, F1 0.7105263471603394, AUC 0.8548768939393939
+  Second-Tier acc 0.7428571581840515, precision 0.5625, recall 0.8181818127632141, specificity 0.7083333134651184, F1 0.6666666865348816, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 190
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 191 idx: 40 First Loss : 0.0035974596213026898, Second Loss : 1.1151770309858478e-05 
+epoch: 191 idx: 80 First Loss : 0.002550660996876353, Second Loss : 1.3322745156507665e-05 
+epoch: 191 idx: 120 First Loss : 0.002511746340543297, Second Loss : 1.4214217953127199e-05 
+>>>>>>>>>>> Validation Epoch: 191
+  First-Tier acc 0.8357142806053162, precision 0.8888888955116272, recall 0.5454545617103577, specificity 0.96875, F1 0.6760563254356384, AUC 0.8335700757575757
+  Second-Tier acc 0.800000011920929, precision 0.699999988079071, recall 0.6363636255264282, specificity 0.875, F1 0.6666666865348816, AUC 0.8484848484848485
+ 
+>>>>>>>>>>> Test Epoch: 191
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 192 idx: 40 First Loss : 0.03397244414753757, Second Loss : 1.0123224561198185e-05 
+epoch: 192 idx: 80 First Loss : 0.01845780598925406, Second Loss : 1.2596820962507139e-05 
+epoch: 192 idx: 120 First Loss : 0.020971257436232953, Second Loss : 1.3414446836238862e-05 
+>>>>>>>>>>> Validation Epoch: 192
+  First-Tier acc 0.8571428656578064, precision 0.9285714030265808, recall 0.5909090638160706, specificity 0.9791666865348816, F1 0.7222222089767456, AUC 0.8385416666666667
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8636363636363636
+ 
+>>>>>>>>>>> Test Epoch: 192
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 193 idx: 40 First Loss : 0.0005763586674941479, Second Loss : 8.98818557502068e-06 
+epoch: 193 idx: 80 First Loss : 0.000809472882668949, Second Loss : 1.9016714095343447e-05 
+epoch: 193 idx: 120 First Loss : 0.0010742149905135002, Second Loss : 1.7698134678075423e-05 
+>>>>>>>>>>> Validation Epoch: 193
+  First-Tier acc 0.8285714387893677, precision 0.75, recall 0.6818181872367859, specificity 0.8958333134651184, F1 0.714285671710968, AUC 0.8574810606060606
+  Second-Tier acc 0.7714285850524902, precision 0.6000000238418579, recall 0.8181818127632141, specificity 0.75, F1 0.6923076510429382, AUC 0.8712121212121212
+ 
+>>>>>>>>>>> Test Epoch: 193
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 194 idx: 40 First Loss : 0.0012942518228207245, Second Loss : 9.006076963480326e-06 
+epoch: 194 idx: 80 First Loss : 0.006603725100959213, Second Loss : 1.1214297517181393e-05 
+epoch: 194 idx: 120 First Loss : 0.009934668502087306, Second Loss : 1.0526881722642637e-05 
+>>>>>>>>>>> Validation Epoch: 194
+  First-Tier acc 0.8428571224212646, precision 0.8235294222831726, recall 0.6363636255264282, specificity 0.9375, F1 0.7179487347602844, AUC 0.845407196969697
+  Second-Tier acc 0.7428571581840515, precision 0.5625, recall 0.8181818127632141, specificity 0.7083333134651184, F1 0.6666666865348816, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 194
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 195 idx: 40 First Loss : 0.003237772621949286, Second Loss : 1.5541284803077815e-05 
+epoch: 195 idx: 80 First Loss : 0.0079246412936548, Second Loss : 1.0250176047232885e-05 
+epoch: 195 idx: 120 First Loss : 0.005817840582593595, Second Loss : 9.784818297298159e-06 
+>>>>>>>>>>> Validation Epoch: 195
+  First-Tier acc 0.8500000238418579, precision 0.8709677457809448, recall 0.6136363744735718, specificity 0.9583333134651184, F1 0.7200000286102295, AUC 0.8446969696969696
+  Second-Tier acc 0.800000011920929, precision 0.699999988079071, recall 0.6363636255264282, specificity 0.875, F1 0.6666666865348816, AUC 0.8598484848484848
+ 
+>>>>>>>>>>> Test Epoch: 195
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 196 idx: 40 First Loss : 0.0012372517285419882, Second Loss : 5.379220602819146e-06 
+epoch: 196 idx: 80 First Loss : 0.002437681076466047, Second Loss : 9.696977728612665e-06 
+epoch: 196 idx: 120 First Loss : 0.002613217977687743, Second Loss : 1.626054138252897e-05 
+>>>>>>>>>>> Validation Epoch: 196
+  First-Tier acc 0.8142856955528259, precision 0.7142857313156128, recall 0.6818181872367859, specificity 0.875, F1 0.6976744532585144, AUC 0.8551136363636365
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.8787878787878787
+ 
+>>>>>>>>>>> Test Epoch: 196
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 197 idx: 40 First Loss : 0.022327363857165317, Second Loss : 4.275030157039339e-05 
+epoch: 197 idx: 80 First Loss : 0.037714189723725776, Second Loss : 2.9367747203057347e-05 
+epoch: 197 idx: 120 First Loss : 0.026439590987451744, Second Loss : 2.4093249951858315e-05 
+>>>>>>>>>>> Validation Epoch: 197
+  First-Tier acc 0.7428571581840515, precision 0.5555555820465088, recall 0.9090909361839294, specificity 0.6666666865348816, F1 0.6896551847457886, AUC 0.8750000000000001
+  Second-Tier acc 0.7428571581840515, precision 0.5625, recall 0.8181818127632141, specificity 0.7083333134651184, F1 0.6666666865348816, AUC 0.8598484848484849
+ 
+>>>>>>>>>>> Test Epoch: 197
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 198 idx: 40 First Loss : 0.0020664748191391523, Second Loss : 1.281404041133527e-05 
+epoch: 198 idx: 80 First Loss : 0.0015449816836148322, Second Loss : 9.69710335576579e-06 
+epoch: 198 idx: 120 First Loss : 0.001266527214869188, Second Loss : 1.1389744433998317e-05 
+>>>>>>>>>>> Validation Epoch: 198
+  First-Tier acc 0.8428571224212646, precision 0.8928571343421936, recall 0.5681818127632141, specificity 0.96875, F1 0.694444477558136, AUC 0.8536931818181818
+  Second-Tier acc 0.8285714387893677, precision 0.7777777910232544, recall 0.6363636255264282, specificity 0.9166666865348816, F1 0.699999988079071, AUC 0.8674242424242424
+ 
+>>>>>>>>>>> Test Epoch: 198
+ 
+ test auc: 0.912878787878788, from epoch 88
+ current learn rate 2e-05
+epoch: 199 idx: 40 First Loss : 0.0009232509929717025, Second Loss : 1.1169381166276083e-05 
+epoch: 199 idx: 80 First Loss : 0.003988729545945091, Second Loss : 1.1926364797343324e-05 
+epoch: 199 idx: 120 First Loss : 0.0028654217139395164, Second Loss : 1.0878446207721974e-05 
+>>>>>>>>>>> Validation Epoch: 199
+  First-Tier acc 0.8357142806053162, precision 0.800000011920929, recall 0.6363636255264282, specificity 0.9270833134651184, F1 0.7088606953620911, AUC 0.8510890151515151
+  Second-Tier acc 0.800000011920929, precision 0.6428571343421936, recall 0.8181818127632141, specificity 0.7916666865348816, F1 0.7200000286102295, AUC 0.8939393939393939
+ 
+>>>>>>>>>>> Test Epoch: 199
+ 
+ test auc: 0.912878787878788, from epoch 88

@@ -1,0 +1,19 @@
+Name,Ground Truth,Resnet_Prediction
+Lung_Dx-A0191&09-18-2009-PET03WholebodyFirstHead_Adult-37501&10.000000-Thorax_1.0_B70f-20869_patch,0,0.0
+Lung_Dx-A0230&05-01-2010-PET01PTheadlung_Adult-45797&9.000000-Thorax_1.0_B70f-52571_patch,0,0.0
+Lung_Dx-A0080&01-28-2010-lung3D-88762&3.000000-Recon_2_5mm-99196_patch,0,0.0
+Lung_Dx-A0176&06-28-2009-PET03WholebodyFirstHead_Adult-19609&9.000000-Thorax_1.0_B70f-99389_patch,0,0.0
+Lung_Dx-A0084&04-08-2011-Chest_3D_IMR-56674&205.000000-FBP-23013_patch,0,0.0
+Lung_Dx-A0238&09-01-2010-PET03CBMWholebodyFirstHead_Adult-14427&10.000000-Thorax_1.0_B70f-94220_patch,0,0.0
+Lung_Dx-A0202&10-08-2009-PET03WholebodyFirstHead_Adult-94603&10.000000-Thorax_1.0_B70f-48672_patch,0,0.0
+Lung_Dx-G0055&02-09-2011-PETNEW03CBMWholebodyFirstHead_Adult-29324&10.000000-Thorax_1.0_B70f-37551_patch,1,0.0
+Lung_Dx-A0253&03-12-2011-PETNEW03CBMWholebodyFirstHead_Adult-07397&10.000000-Thorax_1.0_B70f-02804_patch,0,0.0
+Lung_Dx-A0117&05-25-2011-Chest_3D_IMR-34789&205.000000-FBP-73265_patch,0,0.0
+Lung_Dx-A0244&06-19-2010-PET03WholebodyFirstHead_Adult-60620&9.000000-Thorax_1.0_B70f-78683_patch,0,0.0
+Lung_Dx-A0078&06-09-2011-Thorax01ThoraxRoutine_Adult-09648&5.000000-Thorax_1.0_B70f-73066_patch,0,0.0
+Lung_Dx-G0046&12-01-2010-PET03CBMWholebodyFirstHead_Adult-85885&10.000000-Thorax_1.0_B70f-56338_patch,1,1.0
+Lung_Dx-A0126&05-07-2011-Chest_3D-26261&205.000000-FBP-19066_patch,0,0.0
+Lung_Dx-A0225&02-24-2010-PET03WholebodyFirstHead_Adult-94548&10.000000-Thorax_1.0_B70f-02864_patch,0,0.0
+Lung_Dx-G0051&11-04-2010-PET03CBMWholebodyFirstHead_Adult-54846&10.000000-Thorax_1.0_B70f-83663_patch,1,0.0
+Lung_Dx-G0058&03-24-2011-PETNEW03CBMWholebodyFirstHead_Adult-96456&9.000000-Thorax_1.0_B31f-72271_patch,1,1.0
+Lung_Dx-G0033&11-08-2009-PET03WholebodyFirstHead_Adult-56137&10.000000-Thorax_1.0_B70f-39624_patch,1,1.0
